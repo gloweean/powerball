@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand
 from common.models import Base, Population
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 from django.conf import settings
 import time
@@ -23,24 +24,35 @@ class Command(BaseCommand):
         draw_no_button.click()
         driver.implicitly_wait(2)
 
-        # input 넣고
-        input_box = driver.find_element(By.CSS_SELECTOR, "input[type='text']")
-        input_box.send_keys('1')
         
-        # find button click
-        find_button = driver.find_element(By.CSS_SELECTOR, "button[data-test-id='button-find']")
-        find_button.click()
+        '''
+        이 부분이 반복되어야 하는 부분
+        '''
+        # 가장 최근의 draw number 찾기
+        searching_element_draw_number = driver.find_element(By.CSS_SELECTOR, "div[class='drawname']")
+        most_recent_draw = int(searching_element_draw_number.text.split('No. ')[1])
         
-        time.sleep(3)
-
-        result = driver.find_element(By.CSS_SELECTOR, "section[class='row collapse results-search']")
-        
-        text = result.text
-        
-        
-        result_set = text.split('\n')
-        
-        print(result_set)
+        for draw in range(1, most_recent_draw+1):
+            # input field search & input
+            input_box = driver.find_element(By.CSS_SELECTOR, "input[type='text']")
+            length = len(input_box.get_attribute('value'))
+            input_box.send_keys(length * Keys.BACKSPACE)
+            input_box.send_keys('{}'.format(draw))
+            
+            # find button click
+            find_button = driver.find_element(By.CSS_SELECTOR, "button[data-test-id='button-find']")
+            find_button.click()
+            
+            time.sleep(1)
+    
+            result = driver.find_element(By.CSS_SELECTOR, "section[class='row collapse results-search']")
+            
+            text = result.text
+            
+            result_set = text.split('\n')
+            
+            number_set = [content for i, content in enumerate(result_set) if i >= result_set.index('Draw {}'.format(draw))][:-2]
+            print(number_set)
 
         
         '''
