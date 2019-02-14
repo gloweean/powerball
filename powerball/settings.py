@@ -25,6 +25,9 @@ CONFIG_SECRET_COMMON_FILE = os.path.join(CONFIG_SECRET_DIR, 'settings_common.jso
 
 config_secret_common = json.loads(open(CONFIG_SECRET_COMMON_FILE).read())
 
+# Chromedriver Path
+WEBDRIVER_PATH = os.path.join(ROOT_DIR, 'chromedriver')  # MAC versions
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/

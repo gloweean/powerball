@@ -1,0 +1,3741 @@
+
+Powerball ✓ Results | Australia's Official Lotteries | the Lott
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (typeof Object.assign != 'function') {
+  Object.assign = function(target, varArgs) { 
+    'use strict';
+    if (target == null) { 
+      throw new TypeError('Cannot convert undefined or null to object');
+    }
+
+    var to = Object(target);
+
+    for (var index = 1; index &lt; arguments.length; index++) {
+      var nextSource = arguments[index];
+
+      if (nextSource != null) { 
+        for (var nextKey in nextSource) {
+          if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
+            to[nextKey] = nextSource[nextKey];
+          }
+        }
+      }
+    }
+    return to;
+  };
+}
+
+
+window.configVars={};window.newConfigVars={};window.configVars.UX={};window.akamai={};window.akamai.apiCache={};window.akamai.apiCache.baseUrl='https://data.api.thelott.com/';window.akamai.apiCache.enabled='true';window.akamai.apiCache.endpoints='sales/vmax/web/data/lotto/';window.appdynamics={};window.appdynamics.key='AD-AAB-AAE-KNT';window.baseS3UrlForDrawVideoIndex='https://s3-ap-southeast-2.amazonaws.com/lott-draw-videos';window.baseUrl='https://api.thelott.com/';window.checkMyTicketBaseUrl='https://service.thelott.com/checkmyticket/api/';window.crossSellPromotion={};window.crossSellPromotion.enabled='enabled';window.crossSellPromotion.enabledForSaturday='disabled';window.crossSellPromotion.showForFavourites='disabled';window.entryPickerBaseUrl='https://service.thelott.com/entrypicker/api/';window.lervStatus='enabled';window.otherLevelsConfiguration={};window.otherLevelsConfiguration.appKey='6843826bbc4aeff6c921c102ce6345c2';window.otherLevelsConfiguration.appName='Tatts PROD';window.otherLevelsConfiguration.browserPushNotifications={};window.otherLevelsConfiguration.browserPushNotifications.showSoftOptIn='true';window.otherLevelsConfiguration.resourceUrl='https://cdn.otherlevels.com/js-sdk/otherlevels.js';window.resetPasswordToken='enabled';window.secBaseUrl='https://t17.lott-api.tattsnonprod.com/sec/api';window.service={};window.service.pid='thelott.variables';window.syndicateBaseUrl='https://service.thelott.com/syndicates/api/';window.syndicates={};window.syndicates.checkMyTicket='disabled';window.syndicates.enabled='enabled';window.tattsgreenidconfig={};window.tattsgreenidconfig.configScriptPath='https://simpleui-au.vixverify.com/df/javascripts/greenidConfig';window.tattsgreenidconfig.cssPath='https://simpleui.edentiti.com/df/assets/stylesheets/greenid.css';window.tattsgreenidconfig.environment='prod';window.tattsgreenidconfig.mainScriptPath='https://simpleui-au.vixverify.com/df/javascripts/greenidui.min';window.tokenisation={};window.tokenisation.enabled='true';window.tokenisation.mastercardUrl='https://ap-gateway.mastercard.com/form/version/41/merchant/THELOTTMAA01/session.js';window.ux={};window.ux.dtmheader='//assets.adobedtm.com/bdbce93feabc14b4505e00fc5e003a3b12e347fc/satelliteLib-e319739035572dede2ecb5f36c6d9a9677cec86c.js';window.UX={};window.UX.salesChannel='The Lott Website';window.UX.version='1.0';window.UX.server='4686';.mboxDefault {visibility:hidden;}.at-element-marker {visibility:visible;}
+  (function(win, doc, sdk_url){
+  if(win.snaptr) return;
+  var tr=win.snaptr=function(){
+  tr.handleRequest? tr.handleRequest.apply(tr, arguments):tr.queue.push(arguments);
+};
+  tr.queue = [];
+  var s='script';
+  var new_script_section=doc.createElement(s);
+  new_script_section.async=!0;
+  new_script_section.src=sdk_url;
+  var insert_pos=doc.getElementsByTagName(s)[0];
+  insert_pos.parentNode.insertBefore(new_script_section, insert_pos);
+})(window, document, 'https://sc-static.net/scevent.min.js');
+
+  snaptr('init','29dcb299-9b02-499f-b87d-38aecaf8c18a',{
+  'user_email':'&lt;USER-EMAIL&gt;'
+})
+  //snaptr('track','PAGE_VIEW') 
+  snaptr('track','VIEW_CONTENT')
+
+
+
+  // forceEnable = null
+
+  if (typeof window["adrum-disable"] === 'undefined') {
+    window["adrum-disable"] = true;
+  }
+
+  window['adrum-start-time'] = new Date().getTime();
+  (function(config){
+    config.appKey = 'AD-AAB-AAE-KNT';
+    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+    config.beaconUrlHttp = 'http://col.eum-appdynamics.com';
+    config.beaconUrlHttps = 'https://col.eum-appdynamics.com';
+    config.xd = {enable : false};
+
+    config.beacon ? config.beacon.neverSendImageBeacon = true : config.beacon = { neverSendImageBeacon: true };
+    config.resTiming = { bufSize: 200, clearResTimingsOnBeaconSend: true }
+  })(window['adrum-config'] || (window['adrum-config'] = {}));
+
+
+
+
+.aurelia-hide { display:none !important; }.aurelia-hide { display:none !important; }.aurelia-hide { display:none !important; }.aurelia-hide { display:none !important; }.aurelia-hide { display:none !important; }.aurelia-hide { display:none !important; }ux-dialog-container,ux-dialog-overlay{position:fixed;top:0;right:0;bottom:0;left:0}ux-dialog-overlay{opacity:0}ux-dialog-overlay.active{opacity:1}ux-dialog-container{display:block;transition:opacity .2s linear;opacity:0;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}ux-dialog-container.active{opacity:1}ux-dialog-container&gt;div{padding:30px}ux-dialog-container&gt;div&gt;div{display:block;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto}ux-dialog-container,ux-dialog-container&gt;div,ux-dialog-container&gt;div&gt;div{outline:0}ux-dialog{display:table;box-shadow:0 5px 15px rgba(0,0,0,.5);border:1px solid rgba(0,0,0,.2);border-radius:5px;padding:3px;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;background:#fff}ux-dialog&gt;ux-dialog-header{display:block;padding:16px;border-bottom:1px solid #e5e5e5}ux-dialog&gt;ux-dialog-header&gt;button{float:right;border:none;display:block;width:32px;height:32px;background:0 0;font-size:22px;line-height:16px;margin:-14px -16px 0 0;padding:0;cursor:pointer}ux-dialog&gt;ux-dialog-body{display:block;padding:16px}ux-dialog&gt;ux-dialog-footer{display:block;padding:6px;border-top:1px solid #e5e5e5;text-align:right}ux-dialog&gt;ux-dialog-footer button{color:#333;background-color:#fff;padding:6px 12px;font-size:14px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid #ccc;border-radius:4px;margin:5px 0 5px 5px}ux-dialog&gt;ux-dialog-footer button:disabled{cursor:default;opacity:.45}ux-dialog&gt;ux-dialog-footer button:hover:enabled{color:#333;background-color:#e6e6e6;border-color:#adadad}.ux-dialog-open{overflow:hidden}ux-dialog-container,ux-dialog-overlay{position:fixed;top:0;right:0;bottom:0;left:0}ux-dialog-overlay{opacity:0}ux-dialog-overlay.active{opacity:1}ux-dialog-container{display:block;transition:opacity .2s linear;opacity:0;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}ux-dialog-container.active{opacity:1}ux-dialog-container&gt;div{padding:30px}ux-dialog-container&gt;div&gt;div{display:block;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto}ux-dialog-container,ux-dialog-container&gt;div,ux-dialog-container&gt;div&gt;div{outline:0}ux-dialog{display:table;box-shadow:0 5px 15px rgba(0,0,0,.5);border:1px solid rgba(0,0,0,.2);border-radius:5px;padding:3px;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;background:#fff}ux-dialog&gt;ux-dialog-header{display:block;padding:16px;border-bottom:1px solid #e5e5e5}ux-dialog&gt;ux-dialog-header&gt;button{float:right;border:none;display:block;width:32px;height:32px;background:0 0;font-size:22px;line-height:16px;margin:-14px -16px 0 0;padding:0;cursor:pointer}ux-dialog&gt;ux-dialog-body{display:block;padding:16px}ux-dialog&gt;ux-dialog-footer{display:block;padding:6px;border-top:1px solid #e5e5e5;text-align:right}ux-dialog&gt;ux-dialog-footer button{color:#333;background-color:#fff;padding:6px 12px;font-size:14px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid #ccc;border-radius:4px;margin:5px 0 5px 5px}ux-dialog&gt;ux-dialog-footer button:disabled{cursor:default;opacity:.45}ux-dialog&gt;ux-dialog-footer button:hover:enabled{color:#333;background-color:#e6e6e6;border-color:#adadad}.ux-dialog-open{overflow:hidden}ux-dialog-container,ux-dialog-overlay{position:fixed;top:0;right:0;bottom:0;left:0}ux-dialog-overlay{opacity:0}ux-dialog-overlay.active{opacity:1}ux-dialog-container{display:block;transition:opacity .2s linear;opacity:0;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}ux-dialog-container.active{opacity:1}ux-dialog-container&gt;div{padding:30px}ux-dialog-container&gt;div&gt;div{display:block;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto}ux-dialog-container,ux-dialog-container&gt;div,ux-dialog-container&gt;div&gt;div{outline:0}ux-dialog{display:table;box-shadow:0 5px 15px rgba(0,0,0,.5);border:1px solid rgba(0,0,0,.2);border-radius:5px;padding:3px;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;background:#fff}ux-dialog&gt;ux-dialog-header{display:block;padding:16px;border-bottom:1px solid #e5e5e5}ux-dialog&gt;ux-dialog-header&gt;button{float:right;border:none;display:block;width:32px;height:32px;background:0 0;font-size:22px;line-height:16px;margin:-14px -16px 0 0;padding:0;cursor:pointer}ux-dialog&gt;ux-dialog-body{display:block;padding:16px}ux-dialog&gt;ux-dialog-footer{display:block;padding:6px;border-top:1px solid #e5e5e5;text-align:right}ux-dialog&gt;ux-dialog-footer button{color:#333;background-color:#fff;padding:6px 12px;font-size:14px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid #ccc;border-radius:4px;margin:5px 0 5px 5px}ux-dialog&gt;ux-dialog-footer button:disabled{cursor:default;opacity:.45}ux-dialog&gt;ux-dialog-footer button:hover:enabled{color:#333;background-color:#e6e6e6;border-color:#adadad}.ux-dialog-open{overflow:hidden}ux-dialog-container,ux-dialog-overlay{position:fixed;top:0;right:0;bottom:0;left:0}ux-dialog-overlay{opacity:0}ux-dialog-overlay.active{opacity:1}ux-dialog-container{display:block;transition:opacity .2s linear;opacity:0;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}ux-dialog-container.active{opacity:1}ux-dialog-container&gt;div{padding:30px}ux-dialog-container&gt;div&gt;div{display:block;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto}ux-dialog-container,ux-dialog-container&gt;div,ux-dialog-container&gt;div&gt;div{outline:0}ux-dialog{display:table;box-shadow:0 5px 15px rgba(0,0,0,.5);border:1px solid rgba(0,0,0,.2);border-radius:5px;padding:3px;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;background:#fff}ux-dialog&gt;ux-dialog-header{display:block;padding:16px;border-bottom:1px solid #e5e5e5}ux-dialog&gt;ux-dialog-header&gt;button{float:right;border:none;display:block;width:32px;height:32px;background:0 0;font-size:22px;line-height:16px;margin:-14px -16px 0 0;padding:0;cursor:pointer}ux-dialog&gt;ux-dialog-body{display:block;padding:16px}ux-dialog&gt;ux-dialog-footer{display:block;padding:6px;border-top:1px solid #e5e5e5;text-align:right}ux-dialog&gt;ux-dialog-footer button{color:#333;background-color:#fff;padding:6px 12px;font-size:14px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid #ccc;border-radius:4px;margin:5px 0 5px 5px}ux-dialog&gt;ux-dialog-footer button:disabled{cursor:default;opacity:.45}ux-dialog&gt;ux-dialog-footer button:hover:enabled{color:#333;background-color:#e6e6e6;border-color:#adadad}.ux-dialog-open{overflow:hidden}ux-dialog-container,ux-dialog-overlay{position:fixed;top:0;right:0;bottom:0;left:0}ux-dialog-overlay{opacity:0}ux-dialog-overlay.active{opacity:1}ux-dialog-container{display:block;transition:opacity .2s linear;opacity:0;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}ux-dialog-container.active{opacity:1}ux-dialog-container&gt;div{padding:30px}ux-dialog-container&gt;div&gt;div{display:block;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto}ux-dialog-container,ux-dialog-container&gt;div,ux-dialog-container&gt;div&gt;div{outline:0}ux-dialog{display:table;box-shadow:0 5px 15px rgba(0,0,0,.5);border:1px solid rgba(0,0,0,.2);border-radius:5px;padding:3px;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;background:#fff}ux-dialog&gt;ux-dialog-header{display:block;padding:16px;border-bottom:1px solid #e5e5e5}ux-dialog&gt;ux-dialog-header&gt;button{float:right;border:none;display:block;width:32px;height:32px;background:0 0;font-size:22px;line-height:16px;margin:-14px -16px 0 0;padding:0;cursor:pointer}ux-dialog&gt;ux-dialog-body{display:block;padding:16px}ux-dialog&gt;ux-dialog-footer{display:block;padding:6px;border-top:1px solid #e5e5e5;text-align:right}ux-dialog&gt;ux-dialog-footer button{color:#333;background-color:#fff;padding:6px 12px;font-size:14px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid #ccc;border-radius:4px;margin:5px 0 5px 5px}ux-dialog&gt;ux-dialog-footer button:disabled{cursor:default;opacity:.45}ux-dialog&gt;ux-dialog-footer button:hover:enabled{color:#333;background-color:#e6e6e6;border-color:#adadad}.ux-dialog-open{overflow:hidden}ux-dialog-container,ux-dialog-overlay{position:fixed;top:0;right:0;bottom:0;left:0}ux-dialog-overlay{opacity:0}ux-dialog-overlay.active{opacity:1}ux-dialog-container{display:block;transition:opacity .2s linear;opacity:0;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}ux-dialog-container.active{opacity:1}ux-dialog-container&gt;div{padding:30px}ux-dialog-container&gt;div&gt;div{display:block;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto}ux-dialog-container,ux-dialog-container&gt;div,ux-dialog-container&gt;div&gt;div{outline:0}ux-dialog{display:table;box-shadow:0 5px 15px rgba(0,0,0,.5);border:1px solid rgba(0,0,0,.2);border-radius:5px;padding:3px;min-width:300px;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;background:#fff}ux-dialog&gt;ux-dialog-header{display:block;padding:16px;border-bottom:1px solid #e5e5e5}ux-dialog&gt;ux-dialog-header&gt;button{float:right;border:none;display:block;width:32px;height:32px;background:0 0;font-size:22px;line-height:16px;margin:-14px -16px 0 0;padding:0;cursor:pointer}ux-dialog&gt;ux-dialog-body{display:block;padding:16px}ux-dialog&gt;ux-dialog-footer{display:block;padding:6px;border-top:1px solid #e5e5e5;text-align:right}ux-dialog&gt;ux-dialog-footer button{color:#333;background-color:#fff;padding:6px 12px;font-size:14px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid #ccc;border-radius:4px;margin:5px 0 5px 5px}ux-dialog&gt;ux-dialog-footer button:disabled{cursor:default;opacity:.45}ux-dialog&gt;ux-dialog-footer button:hover:enabled{color:#333;background-color:#e6e6e6;border-color:#adadad}.ux-dialog-open{overflow:hidden}.keno-numbers .keno-winning-numbers {
+  display: flex;
+  flex-wrap: wrap; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.results-search lotto-numbers .numbers-row {
+  line-height: 28px; }
+
+lotto-numbers .drawn-order .number-container,
+lotto-numbers .numerical-order .number-container {
+  display: flex; }
+  lotto-numbers .drawn-order .number-container div,
+  lotto-numbers .numerical-order .number-container div {
+    position: relative; }
+  lotto-numbers .drawn-order .number-container span,
+  lotto-numbers .numerical-order .number-container span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    transform-origin: center center; }
+  lotto-numbers .drawn-order .number-container .primary-numbers,
+  lotto-numbers .numerical-order .number-container .primary-numbers {
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap; }
+  lotto-numbers .drawn-order .number-container .secondary-numbers,
+  lotto-numbers .numerical-order .number-container .secondary-numbers {
+    flex: 0 0 auto;
+    display: flex; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(1) span {
+  -webkit-animation: number-pop-1 0.2s linear 100ms;
+  animation: number-pop-1 0.2s linear 100ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(2) span {
+  -webkit-animation: number-pop-1 0.2s linear 200ms;
+  animation: number-pop-1 0.2s linear 200ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(3) span {
+  -webkit-animation: number-pop-1 0.2s linear 300ms;
+  animation: number-pop-1 0.2s linear 300ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(4) span {
+  -webkit-animation: number-pop-1 0.2s linear 400ms;
+  animation: number-pop-1 0.2s linear 400ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(5) span {
+  -webkit-animation: number-pop-1 0.2s linear 500ms;
+  animation: number-pop-1 0.2s linear 500ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(6) span {
+  -webkit-animation: number-pop-1 0.2s linear 600ms;
+  animation: number-pop-1 0.2s linear 600ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(7) span {
+  -webkit-animation: number-pop-1 0.2s linear 700ms;
+  animation: number-pop-1 0.2s linear 700ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(8) span {
+  -webkit-animation: number-pop-1 0.2s linear 800ms;
+  animation: number-pop-1 0.2s linear 800ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(9) span {
+  -webkit-animation: number-pop-1 0.2s linear 900ms;
+  animation: number-pop-1 0.2s linear 900ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(10) span {
+  -webkit-animation: number-pop-1 0.2s linear 1000ms;
+  animation: number-pop-1 0.2s linear 1000ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(11) span {
+  -webkit-animation: number-pop-1 0.2s linear 1100ms;
+  animation: number-pop-1 0.2s linear 1100ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(12) span {
+  -webkit-animation: number-pop-1 0.2s linear 1200ms;
+  animation: number-pop-1 0.2s linear 1200ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(13) span {
+  -webkit-animation: number-pop-1 0.2s linear 1300ms;
+  animation: number-pop-1 0.2s linear 1300ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(14) span {
+  -webkit-animation: number-pop-1 0.2s linear 1400ms;
+  animation: number-pop-1 0.2s linear 1400ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(15) span {
+  -webkit-animation: number-pop-1 0.2s linear 1500ms;
+  animation: number-pop-1 0.2s linear 1500ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(16) span {
+  -webkit-animation: number-pop-1 0.2s linear 1600ms;
+  animation: number-pop-1 0.2s linear 1600ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(17) span {
+  -webkit-animation: number-pop-1 0.2s linear 1700ms;
+  animation: number-pop-1 0.2s linear 1700ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(18) span {
+  -webkit-animation: number-pop-1 0.2s linear 1800ms;
+  animation: number-pop-1 0.2s linear 1800ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(19) span {
+  -webkit-animation: number-pop-1 0.2s linear 1900ms;
+  animation: number-pop-1 0.2s linear 1900ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .numerical-order .number-container div:nth-child(20) span {
+  -webkit-animation: number-pop-1 0.2s linear 2000ms;
+  animation: number-pop-1 0.2s linear 2000ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(1) span {
+  -webkit-animation: number-pop-2 0.2s linear 100ms;
+  animation: number-pop-2 0.2s linear 100ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(2) span {
+  -webkit-animation: number-pop-2 0.2s linear 200ms;
+  animation: number-pop-2 0.2s linear 200ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(3) span {
+  -webkit-animation: number-pop-2 0.2s linear 300ms;
+  animation: number-pop-2 0.2s linear 300ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(4) span {
+  -webkit-animation: number-pop-2 0.2s linear 400ms;
+  animation: number-pop-2 0.2s linear 400ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(5) span {
+  -webkit-animation: number-pop-2 0.2s linear 500ms;
+  animation: number-pop-2 0.2s linear 500ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(6) span {
+  -webkit-animation: number-pop-2 0.2s linear 600ms;
+  animation: number-pop-2 0.2s linear 600ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(7) span {
+  -webkit-animation: number-pop-2 0.2s linear 700ms;
+  animation: number-pop-2 0.2s linear 700ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(8) span {
+  -webkit-animation: number-pop-2 0.2s linear 800ms;
+  animation: number-pop-2 0.2s linear 800ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(9) span {
+  -webkit-animation: number-pop-2 0.2s linear 900ms;
+  animation: number-pop-2 0.2s linear 900ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(10) span {
+  -webkit-animation: number-pop-2 0.2s linear 1000ms;
+  animation: number-pop-2 0.2s linear 1000ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(11) span {
+  -webkit-animation: number-pop-2 0.2s linear 1100ms;
+  animation: number-pop-2 0.2s linear 1100ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(12) span {
+  -webkit-animation: number-pop-2 0.2s linear 1200ms;
+  animation: number-pop-2 0.2s linear 1200ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(13) span {
+  -webkit-animation: number-pop-2 0.2s linear 1300ms;
+  animation: number-pop-2 0.2s linear 1300ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(14) span {
+  -webkit-animation: number-pop-2 0.2s linear 1400ms;
+  animation: number-pop-2 0.2s linear 1400ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(15) span {
+  -webkit-animation: number-pop-2 0.2s linear 1500ms;
+  animation: number-pop-2 0.2s linear 1500ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(16) span {
+  -webkit-animation: number-pop-2 0.2s linear 1600ms;
+  animation: number-pop-2 0.2s linear 1600ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(17) span {
+  -webkit-animation: number-pop-2 0.2s linear 1700ms;
+  animation: number-pop-2 0.2s linear 1700ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(18) span {
+  -webkit-animation: number-pop-2 0.2s linear 1800ms;
+  animation: number-pop-2 0.2s linear 1800ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(19) span {
+  -webkit-animation: number-pop-2 0.2s linear 1900ms;
+  animation: number-pop-2 0.2s linear 1900ms;
+  animation-fill-mode: both; }
+
+lotto-numbers .drawn-order .number-container div:nth-child(20) span {
+  -webkit-animation: number-pop-2 0.2s linear 2000ms;
+  animation: number-pop-2 0.2s linear 2000ms;
+  animation-fill-mode: both; }
+
+@keyframes number-pop-2 {
+  0% {
+    transform: scale(1, 1);
+    opacity: 0; }
+  49% {
+    transform: scale(1, 1);
+    opacity: 0; }
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: .5; }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1; } }
+
+@keyframes number-pop-1 {
+  0% {
+    transform: scale(1, 1);
+    opacity: 0; }
+  49% {
+    transform: scale(1, 1);
+    opacity: 0; }
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: .5; }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1; } }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+section.winning-numbers-sorter {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 0.875rem; }
+  section.winning-numbers-sorter button {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #6C4796;
+    cursor: pointer; }
+    section.winning-numbers-sorter button.selected {
+      text-decoration: none;
+      color: #000; }
+    section.winning-numbers-sorter button:focus {
+      outline: none; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+/* 
+    Put your component sass in here.
+*/
+@media screen and (max-width: 47.9375em) {
+  .jurisdictional-container div[aurelia-app=secondary-navigation-app] {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem; } }
+
+.secondary-navigation {
+  margin: 0 -2rem; }
+  @media screen and (max-width: 47.9375em) {
+    .secondary-navigation {
+      margin: 0 -0.5rem; } }
+  .secondary-navigation .header {
+    height: 148px;
+    position: relative;
+    margin-bottom: 16px;
+    background-size: auto 148px; }
+    @media screen and (max-width: 39.9375em) {
+      .secondary-navigation .header {
+        height: 162px;
+        background-repeat: no-repeat; } }
+    .secondary-navigation .header .mobile-background {
+      display: none; }
+      @media screen and (max-width: 47.9375em) {
+        .secondary-navigation .header .mobile-background {
+          display: block;
+          background-repeat: no-repeat;
+          background-size: auto 100%;
+          background-position: top left;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0; } }
+    .secondary-navigation .header .brand-nav-logo {
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: top left;
+      position: absolute;
+      top: .75rem;
+      left: 1.5rem;
+      right: 1.5rem;
+      height: 76px; }
+    .secondary-navigation .header .overlay {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+      .secondary-navigation .header .overlay span {
+        display: inline-block;
+        position: relative; }
+        .secondary-navigation .header .overlay span span.caret {
+          display: inline-block;
+          position: absolute;
+          bottom: 0px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 0;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-bottom: 8px solid #ffffff; }
+        .secondary-navigation .header .overlay span a {
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: 900;
+          height: 48px;
+          line-height: 48px;
+          padding: 14px 32px 15px 32px;
+          font-size: 16px; }
+          @media screen and (max-width: 47.9375em) {
+            .secondary-navigation .header .overlay span a {
+              padding: 15px 16px 16px 16px;
+              font-size: 14px; } }
+      @media screen and (max-width: 39.9375em) {
+        .secondary-navigation .header .overlay {
+          padding: 12px 16px; } }
+      .secondary-navigation .header .overlay select {
+        margin: 0px;
+        height: 38px;
+        color: #000000;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+        border: 1px solid #C8C8C8;
+        border-radius: 3px; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.setforlife .brand-ball-color {
+  background-color: #01BCC5;
+  color: "#fff"; }
+
+.setforlife .brand-ball-color-special {
+  background-color: #F0882D; }
+
+.ozlotto .brand-ball-color {
+  background-color: #F3CF08;
+  color: #000; }
+
+.ozlotto .brand-ball-color-special {
+  background-color: #047706; }
+
+.powerball .brand-ball-color {
+  background-color: #3653A4;
+  color: "#fff"; }
+
+.powerball .brand-ball-color-special {
+  background-color: #899BAA; }
+
+.tattslotto .brand-ball-color {
+  background-color: #E63C2F;
+  color: "#fff"; }
+
+.tattslotto .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.tattslotto.state-qld .brand-ball-color {
+  background-color: #E63C2F;
+  color: "#fff"; }
+
+.tattslotto.state-qld .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.tattslotto.state-sa .brand-ball-color {
+  background-color: #E63C2F;
+  color: "#fff"; }
+
+.tattslotto.state-sa .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.tattslotto.state-nsw .brand-ball-color {
+  background-color: #E63C2F;
+  color: "#fff"; }
+
+.tattslotto.state-nsw .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.tattslotto.state-act .brand-ball-color {
+  background-color: #E63C2F;
+  color: "#fff"; }
+
+.tattslotto.state-act .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.monwedlotto .brand-ball-color {
+  background-color: #9E4398;
+  color: "#fff"; }
+
+.monwedlotto .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.monwedlotto.state-qld .brand-ball-color {
+  background-color: #9E4398;
+  color: "#fff"; }
+
+.monwedlotto.state-qld .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.monwedlotto.state-sa .brand-ball-color {
+  background-color: #9E4398;
+  color: "#fff"; }
+
+.monwedlotto.state-sa .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.monwedlotto.state-nsw .brand-ball-color {
+  background-color: #9E4398;
+  color: "#fff"; }
+
+.monwedlotto.state-nsw .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.monwedlotto.state-act .brand-ball-color {
+  background-color: #9E4398;
+  color: "#fff"; }
+
+.monwedlotto.state-act .brand-ball-color-special {
+  background-color: #0193D1; }
+
+.wedlotto .brand-ball-color {
+  background-color: #E8E8E8;
+  color: "#fff"; }
+
+.wedlotto .brand-ball-color-special {
+  background-color: #E8E8E8; }
+
+.super66 .brand-ball-color {
+  background-color: #DA3832;
+  color: "#fff"; }
+
+.super66 .brand-ball-color-special {
+  background-color: #DA3832; }
+
+.super66.state-sa .brand-ball-color {
+  background-color: #EE243C;
+  color: "#fff"; }
+
+.super66.state-sa .brand-ball-color-special {
+  background-color: #EE243C; }
+
+.lucky .brand-ball-color {
+  background-color: #E8E8E8;
+  color: "#fff"; }
+
+.lucky .brand-ball-color-special {
+  background-color: #E8E8E8; }
+
+.luckylotteries2 .brand-ball-color {
+  background-color: #CDD1D0;
+  color: "#fff"; }
+
+.luckylotteries2 .brand-ball-color-special {
+  background-color: #109CBC; }
+
+.luckylotteries5 .brand-ball-color {
+  background-color: #CDD1D0;
+  color: "#fff"; }
+
+.luckylotteries5 .brand-ball-color-special {
+  background-color: #CC157F; }
+
+.keno .brand-ball-color {
+  background-color: #FF001E;
+  color: "#fff"; }
+
+.keno .brand-ball-color-special {
+  background-color: #0750A4; }
+
+.pools .brand-ball-color {
+  background-color: #499700;
+  color: "#fff"; }
+
+.pools .brand-ball-color-special {
+  background-color: #000000; }
+
+.lottostrike .brand-ball-color {
+  background-color: #F56F1E;
+  color: "#fff"; }
+
+.lottostrike .brand-ball-color-special {
+  background-color: #000000; }
+
+.thelott .brand-ball-color {
+  background-color: #6C4796;
+  color: "#fff"; }
+
+.thelott .brand-ball-color-special {
+  background-color: #118ACB; }
+
+.isi .brand-ball-color, .instantscratchits .brand-ball-color {
+  background-color: #009BFF;
+  color: "#fff"; }
+
+.isi .brand-ball-color-special, .instantscratchits .brand-ball-color-special {
+  background-color: #A600BB; }
+
+.number-frequencies {
+  padding: 1rem 2rem; }
+  @media screen and (max-width: 47.9375em) {
+    .number-frequencies {
+      padding: 1rem; } }
+  .number-frequencies .chart-summary {
+    margin: 1.5rem 0; }
+  .number-frequencies .number-charts number-chart {
+    width: 100%; }
+  .number-frequencies .number-charts.has-secondary-numbers number-chart.primary-numbers {
+    width: 67%;
+    margin-right: 3%; }
+    @media screen and (max-width: 63.9375em) {
+      .number-frequencies .number-charts.has-secondary-numbers number-chart.primary-numbers {
+        width: 48.5%; } }
+  .number-frequencies .number-charts.has-secondary-numbers number-chart.secondary-numbers {
+    width: 30%; }
+    @media screen and (max-width: 63.9375em) {
+      .number-frequencies .number-charts.has-secondary-numbers number-chart.secondary-numbers {
+        width: 48.5%; } }
+  @media screen and (max-width: 39.9375em) {
+    .number-frequencies .number-charts.has-secondary-numbers number-chart.primary-numbers, .number-frequencies .number-charts.has-secondary-numbers number-chart.secondary-numbers {
+      width: 100%; }
+    .number-frequencies .number-charts.has-secondary-numbers number-chart.secondary-numbers {
+      margin-top: 1.5rem; } }
+
+.number-frequencies-no-state p {
+  margin: 2rem;
+  padding: 2rem;
+  border: solid 1px #6C4796;
+  font-size: 1.25rem; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.display-state-prompt #pagewrapper {
+  margin-top: 0 !important; }
+
+.display-state-prompt .header-wrapper {
+  position: relative !important;
+  min-width: 100%; }
+  .display-state-prompt .header-wrapper .jurisdictions {
+    position: relative; }
+  .display-state-prompt .header-wrapper .jurisdictions::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 40px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #118ACB transparent transparent transparent; }
+  .display-state-prompt .header-wrapper .header-topbar {
+    position: relative !important; }
+
+.display-state-prompt .content-wrapper {
+  margin-top: 0 !important; }
+
+.jurisdictions div.jurisdiction-selector {
+  cursor: pointer; }
+
+.jurisdiction-dialog {
+  max-width: 414px;
+  min-width: 222px;
+  width: 100vw;
+  padding: 16px;
+  margin: auto;
+  max-height: 493px; }
+  .jurisdiction-dialog ux-dialog {
+    min-width: 0px;
+    width: 100%;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: 0px;
+    padding: 0px; }
+  .jurisdiction-dialog .dialog-close {
+    display: none; }
+  .jurisdiction-dialog ux-dialog &gt; ux-dialog-body {
+    padding: 0px;
+    max-width: none !important; }
+  .jurisdiction-dialog ux-dialog-header {
+    background-color: #118ACB;
+    color: white;
+    padding: 12px; }
+  .jurisdiction-dialog .header-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 900; }
+  .jurisdiction-dialog .header-message {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 4px; }
+  .jurisdiction-dialog .jurisdiction-item {
+    width: 100%;
+    cursor: pointer;
+    height: 56px; }
+    .jurisdiction-dialog .jurisdiction-item .jurisdiction-item-text {
+      margin-left: 16px;
+      width: 61px; }
+    .jurisdiction-dialog .jurisdiction-item .jurisdiction-item-logo {
+      margin-right: auto; }
+      .jurisdiction-dialog .jurisdiction-item .jurisdiction-item-logo img {
+        margin-right: 1rem; }
+    .jurisdiction-dialog .jurisdiction-item .jurisdiction-item-selected {
+      margin-right: 16px; }
+  .jurisdiction-dialog .jurisdiction-item-separator {
+    border-bottom: 1px solid #E8E8E8;
+    width: 100%; }
+
+.m-state-prompt {
+  background-color: #118ACB;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px; }
+  .m-state-prompt button:hover {
+    cursor: pointer; }
+  .m-state-prompt button.dialog-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    margin: 0;
+    color: white;
+    font-size: 1.7rem;
+    width: 34px;
+    height: 34px; }
+  .m-state-prompt .m-state-container {
+    padding-top: 16px; }
+    .m-state-prompt .m-state-container .m-state-content .m-state-header {
+      background: transparent url('/etc/designs/the-lott/components/content/jurisdictions/clientlibs/assets/notificationFaceMessage.svg') no-repeat 0 0/40px 40px;
+      padding-left: 56px;
+      color: white;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 16px; }
+      .m-state-prompt .m-state-container .m-state-content .m-state-header .m-state-title {
+        font-weight: 900; }
+      .m-state-prompt .m-state-container .m-state-content .m-state-header button {
+        text-decoration: underline;
+        color: white; }
+    .m-state-prompt .m-state-container .m-state-content button.dialog-select {
+      height: 32px;
+      line-height: 32px;
+      border-radius: 100px;
+      background-color: rgba(255, 255, 255, 0.35);
+      text-align: center;
+      width: 100%;
+      margin-bottom: 16px; }
+      .m-state-prompt .m-state-container .m-state-content button.dialog-select span {
+        color: #FFFFFF;
+        font-family: museo-sans;
+        font-size: 14px;
+        font-weight: 900; }
+  @media screen and (min-width: 48em) {
+    .m-state-prompt .m-state-container button.dialog-select {
+      display: none; } }
+  @media screen and (max-width: 47.9375em) {
+    .m-state-prompt .m-state-container {
+      max-width: 343px; } }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.accountheader-app {
+  width: 100%;
+  height: 100%; }
+
+.account-header-container {
+  height: 100%; }
+
+.accountheader {
+  line-height: 2rem;
+  height: 100%; }
+  .accountheader div.balance-container {
+    display: inline-block;
+    text-align: right;
+    height: 43px;
+    vertical-align: middle; }
+    .accountheader div.balance-container p {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 0.75em;
+      font-weight: normal;
+      color: #444444;
+      line-height: 1rem;
+      padding-top: 0.25rem;
+      cursor: pointer; }
+  .accountheader .menu {
+    height: 100%; }
+  .accountheader .menu a {
+    text-decoration: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 2rem;
+    display: inline-block; }
+  .accountheader .join {
+    background-color: #6C4796;
+    border-radius: 2rem;
+    height: 2rem;
+    display: inline-block;
+    line-height: 2rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    color: white; }
+    .accountheader .join span {
+      font-weight: bold;
+      text-transform: capitalize; }
+  .accountheader .login {
+    color: #6C4796;
+    margin-left: 1em; }
+  .accountheader .cart-container {
+    font-weight: 900;
+    height: 2rem;
+    width: 3rem;
+    display: inline-block;
+    position: relative;
+    background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--cart@2x.png');
+    background-size: 2rem auto;
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin-left: 1rem; }
+    .accountheader .cart-container .items {
+      color: white;
+      background-color: #E74124;
+      position: absolute;
+      top: 0rem;
+      left: 0.95rem;
+      height: 1.2rem;
+      width: 1.2rem;
+      display: inline-block;
+      /* padding: 0.3em; */
+      border-radius: 50%;
+      font-size: 0.6rem;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 1.3rem; }
+    .accountheader .cart-container .cart-count-change-add {
+      -webkit-animation: pulse 0.5s;
+      animation: pulse 0.5s; }
+    .accountheader .cart-container .cart-count-change-remove {
+      -webkit-animation: pulse 0.5s;
+      animation: pulse 0.5s; }
+    .accountheader .cart-container .hidden {
+      display: none; }
+    .accountheader .cart-container .cart-visibility-change-add {
+      -webkit-animation: expand 0.5s;
+      animation: expand 0.5s; }
+    .accountheader .cart-container .cart-visibility-change-remove {
+      -webkit-animation: shrink 0.5s;
+      animation: shrink 0.5s; }
+  .accountheader .balance-container {
+    font-weight: bold;
+    line-height: 2rem;
+    height: 2rem;
+    color: black;
+    padding-left: 0; }
+    .accountheader .balance-container.balance-amount {
+      cursor: pointer;
+      min-width: 60px;
+      text-align: right;
+      padding-right: 0;
+      line-height: 1rem;
+      height: 1rem;
+      display: block; }
+    .accountheader .balance-container.balance-account {
+      padding-right: 8px; }
+    .accountheader .balance-container .status {
+      display: inline-block;
+      position: relative;
+      background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--account-avatar@2x.png');
+      background-size: 2rem auto;
+      background-repeat: no-repeat;
+      background-position: center left;
+      margin-left: 0.25em;
+      width: 3rem;
+      height: 2rem;
+      z-index: 1; }
+      .accountheader .balance-container .status .msg {
+        position: absolute;
+        top: 0;
+        left: 21px;
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        background-color: #E74124; }
+        .accountheader .balance-container .status .msg.message-indicator-show.tatts-enter-add {
+          -webkit-animation: expand .5s;
+          animation: expand .5s; }
+      .accountheader .balance-container .status .toggle {
+        position: absolute;
+        top: 1.1em;
+        left: 2.1em;
+        width: 0.4em;
+        height: 0.4em;
+        background-position: top left;
+        background-size: contain;
+        background-repeat: no-repeat; }
+        .accountheader .balance-container .status .toggle.off {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--prompt-dwn@2x.png'); }
+        .accountheader .balance-container .status .toggle.on {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--prompt-up@2x.png'); }
+
+.myaccount-menu-verify {
+  background-color: #E74124;
+  color: #fff; }
+  .myaccount-menu-verify &gt; span {
+    background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--verifyID.svg');
+    padding: .75rem 0 .75rem 4.25rem;
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    background-position: 1rem center;
+    font-size: .875rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+    display: block; }
+    @media screen and (max-width: 47.9375em) {
+      .myaccount-menu-verify &gt; span {
+        background-image: none;
+        padding-left: 1rem; } }
+  .myaccount-menu-verify &gt; a.verify-button {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100px;
+    margin: .875rem 1rem;
+    text-decoration: none;
+    float: right;
+    padding: 0 1rem;
+    line-height: 2.125rem; }
+
+.myaccount-menu {
+  width: 100vw;
+  max-width: 375px;
+  position: absolute;
+  right: 60px;
+  top: 81px;
+  clip: rect(0, 9999px, 9999px, -9999px);
+  height: 0; }
+  .myaccount-menu .myaccount-menu-slider {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3); }
+  .myaccount-menu button {
+    outline: none;
+    cursor: pointer; }
+  .myaccount-menu.off .myaccount-menu-slider {
+    transition: transform ease-in-out .3s, opacity ease-out .3s;
+    transform: translateY(-100%);
+    opacity: 0; }
+  .myaccount-menu.on .myaccount-menu-slider {
+    transition: transform ease-in-out .3s, opacity ease-in .3s;
+    transform: translateY(0);
+    opacity: 1; }
+  .myaccount-menu .myaccount-menu-header {
+    background: linear-gradient(135deg, #4A59A2 0%, #406AAE 18%, #3073B5 31%, #3277B6 43%, #4193BC 56%, #60B9AB 100%);
+    padding: 16px 16px;
+    color: #FFFFFF; }
+    .myaccount-menu .myaccount-menu-header hr {
+      border-color: rgba(255, 255, 255, 0.5);
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem; }
+    .myaccount-menu .myaccount-menu-header .menu-bold {
+      font-weight: 900; }
+    .myaccount-menu .myaccount-menu-header .menu-line {
+      position: relative;
+      font-size: 14px;
+      height: 24px;
+      line-height: 24px; }
+      .myaccount-menu .myaccount-menu-header .menu-line button {
+        line-height: 24px; }
+      .myaccount-menu .myaccount-menu-header .menu-line .page-refresh-container {
+        height: 28px;
+        width: 28px;
+        top: -6px;
+        cursor: pointer; }
+      .myaccount-menu .myaccount-menu-header .menu-line .page-refresh {
+        background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico-refresh.svg');
+        height: 18px;
+        width: 18px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain; }
+        .myaccount-menu .myaccount-menu-header .menu-line .page-refresh.loading {
+          -webkit-animation-name: spin;
+          -webkit-animation-duration: 800ms;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-timing-function: ease-in-out;
+          -ms-animation-name: spin;
+          -ms-animation-duration: 800ms;
+          -ms-animation-iteration-count: infinite;
+          -ms-animation-timing-function: ease-in-out;
+          animation-name: spin;
+          animation-duration: 800ms;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out; }
+      .myaccount-menu .myaccount-menu-header .menu-line .line-right {
+        position: absolute;
+        right: 0; }
+      .myaccount-menu .myaccount-menu-header .menu-line .menu-title {
+        font-size: 18px;
+        font-weight: 900; }
+      .myaccount-menu .myaccount-menu-header .menu-line .menu-email {
+        font-size: 12px;
+        max-width: 280px;
+        display: inline-block;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      .myaccount-menu .myaccount-menu-header .menu-line .menu-link {
+        font-size: 12px;
+        font-weight: 900;
+        text-decoration: underline;
+        color: #FFFFFF; }
+  .myaccount-menu .myaccount-menu-content {
+    background-color: #FFFFFF;
+    color: #6C4796; }
+    .myaccount-menu .myaccount-menu-content .menu-line {
+      position: relative;
+      height: 1.5rem;
+      line-height: 1.5rem; }
+      .myaccount-menu .myaccount-menu-content .menu-line button {
+        line-height: 1.5rem; }
+    .myaccount-menu .myaccount-menu-content .myaccount-menu-row {
+      display: flex; }
+      .myaccount-menu .myaccount-menu-content .myaccount-menu-row:nth-child(1), .myaccount-menu .myaccount-menu-content .myaccount-menu-row:nth-child(2) {
+        border-bottom: 1px #E8E8E8 solid; }
+    .myaccount-menu .myaccount-menu-content .myaccount-menu-option {
+      height: 88px;
+      text-decoration: none; }
+      .myaccount-menu .myaccount-menu-content .myaccount-menu-option:nth-child(1), .myaccount-menu .myaccount-menu-content .myaccount-menu-option:nth-child(2) {
+        border-right: 1px #E8E8E8 solid; }
+      .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon-description {
+        font-size: 0.875rem; }
+      .myaccount-menu .myaccount-menu-content .myaccount-menu-option .icon-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem; }
+      .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon {
+        margin-bottom: 0.25rem;
+        width: 32px;
+        height: 32px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-tickets {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-tix.svg'); }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-money {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-funds.svg'); }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-prizes {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-prizes.svg'); }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-subscriptions {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-subs.svg'); }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-membership {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-mbrship.svg'); }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-messages {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-msgs.svg');
+          position: relative; }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-favourites {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-faves.svg'); }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-rewards {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-rewards.svg'); }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option div.icon.account-settings {
+          background-image: url('/etc/designs/the-lott/components/content/accountheader/clientlibs/assets/ico--accnav-my-settings.svg'); }
+      .myaccount-menu .myaccount-menu-content .myaccount-menu-option .account-messages .new-message {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 0;
+        left: 20px;
+        width: 18px;
+        height: 18px;
+        border-radius: 9px; }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option .account-messages .new-message.off {
+          background-color: transparent; }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option .account-messages .new-message.on {
+          background-color: #E74124; }
+        .myaccount-menu .myaccount-menu-content .myaccount-menu-option .account-messages .new-message span {
+          font-size: 0.625rem;
+          line-height: 1.1875rem;
+          margin: 0 auto;
+          color: #ffffff;
+          font-weight: 900; }
+
+@media screen and (max-width: 47.9375em) {
+  .accountheader .cart-container,
+  .accountheader .login {
+    margin-left: 0; }
+  .myaccount-menu {
+    top: 51px; } }
+
+@media screen and (max-width: 30.9375em) {
+  .myaccount-menu {
+    right: 0;
+    max-width: initial; }
+    .myaccount-menu .myaccount-menu-slider {
+      box-shadow: none; }
+    .myaccount-menu .myaccount-menu-row:last-child {
+      border-bottom: 1px #E8E8E8 solid; } }
+
+@keyframes pulse {
+  1% {
+    transform: scale(0); }
+  25% {
+    transform: scale(1.1); }
+  45% {
+    transform: scale(0.9); }
+  63% {
+    transform: scale(1.05); }
+  79% {
+    transform: scale(0.95); }
+  100% {
+    transform: scale(1); } }
+
+@-webkit-keyframes pulse {
+  1% {
+    transform: scale(0); }
+  25% {
+    transform: scale(1.1); }
+  45% {
+    transform: scale(0.9); }
+  63% {
+    transform: scale(1.05); }
+  79% {
+    transform: scale(0.95); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes shrink {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0); } }
+
+@-webkit-keyframes shrink {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0); } }
+
+@keyframes expand {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+
+@-webkit-keyframes expand {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1); }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03); }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97); }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1); }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03); }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97); }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+.bounceIn-add {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+/*
+    Put your component sass in here.
+ */
+/*
+    with environment.scss you can reference images like this:
+    background-image: url('/etc/designs/the-lott/components/content/results-search/clientlibs/assets/ico--next-results.svg');
+ */
+.results-search {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: -2rem !important;
+  margin-left: -2rem !important;
+  overflow: hidden;
+  background-color: #FAFAFA;
+  box-shadow: inset 0 1px 0 0 #E8E8E8, inset 0 -1px 0 0 #E8E8E8;
+  font-size: 14px;
+  padding-bottom: 32px; }
+  @media screen and (max-width: 47.9375em) {
+    .results-search {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-right: -0.5rem !important;
+      margin-left: -0.5rem !important; } }
+  .results-search default-results-table, .results-search lotto-strike-results-table, .results-search sfl-results-table, .results-search mon-wed-results-table {
+    width: 100%; }
+  .results-search .ball-order {
+    text-align: right;
+    font-size: .875rem;
+    line-height: 1.25rem; }
+    .results-search .ball-order:before {
+      content: '';
+      display: inline-block;
+      width: 1rem;
+      margin-right: .25rem;
+      height: 1rem;
+      background-image: url('/etc/designs/the-lott/components/content/results-search/clientlibs/assets/ico--ball-order.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      vertical-align: middle; }
+    @media screen and (max-width: 47.9375em) {
+      .results-search .ball-order {
+        font-size: .75rem; }
+        .results-search .ball-order:before {
+          width: .875rem;
+          height: .875rem; } }
+    .results-search .ball-order button {
+      color: #6C4796;
+      cursor: pointer;
+      line-height: 1.25rem; }
+      .results-search .ball-order button[disabled] {
+        color: #B2B2B2;
+        cursor: default; }
+  .results-search .search-title {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: #000000; }
+  .results-search h1 {
+    text-align: center; }
+  .results-search .select-time {
+    height: 38px;
+    width: 204px;
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 0px 5px 0px; }
+  .results-search .select-time:focus {
+    border: 1px solid #444444; }
+  .results-search .select-day {
+    height: 38px;
+    width: 76px;
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 8px 5px 0px; }
+  .results-search .select-day:focus {
+    border: 1px solid #444444; }
+  .results-search .select-month {
+    height: 38px;
+    width: 120px;
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 8px 5px 0px; }
+  .results-search .select-month:focus {
+    border: 1px solid #444444; }
+  .results-search .select-year {
+    height: 38px;
+    width: 76px;
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 0px 5px 0px; }
+  .results-search .select-year:focus {
+    border: 1px solid #444444; }
+  .results-search .button-find {
+    height: 38px;
+    width: 76px;
+    border-radius: 100px;
+    background-color: #6C4796;
+    margin: 5px 0px 5px 8px;
+    font-weight: 900; }
+  .results-search .button-find:focus {
+    outline: 0; }
+  .results-search .help-text {
+    margin-top: 10px;
+    margin-bottom: 0px; }
+  .results-search .help-text-width {
+    width: 290px; }
+  .results-search .help-text-width-keno {
+    width: 282px; }
+  .results-search .number, .results-search .suppsnumber {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 3px;
+    margin-top: 3px; }
+  .results-search .last-number, .results-search .last-suppsnumber {
+    margin-right: 0px; }
+  .results-search .bold-text {
+    font-weight: 900; }
+  .results-search .dividend-header-row {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #E8E8E8;
+    box-shadow: inset 0 -1px 0 0 #B2B2B2;
+    line-height: 20px;
+    color: #000000; }
+  .results-search .dividend-row {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 20px; }
+  .results-search .dividend-row-separator {
+    box-shadow: inset 0 -1px 0 0 #E8E8E8; }
+  .results-search .number-container {
+    float: left; }
+  .results-search .draw-details-top {
+    box-shadow: inset 0 1px 0 0 #E8E8E8; }
+  .results-search .draw-details-top-selected {
+    box-shadow: inset 0 1px 0 0 #B2B2B2; }
+  .results-search .draw-details-top-bottom {
+    box-shadow: inset 0 1px 0 0 #E8E8E8, inset 0 -1px 0 0 #E8E8E8; }
+  .results-search .draw-details-top-selected-bottom {
+    box-shadow: inset 0 1px 0 0 #B2B2B2, inset 0 -1px 0 0 #E8E8E8; }
+  .results-search .draw-details-top-selected-bottom-selected {
+    box-shadow: inset 0 1px 0 0 #B2B2B2, inset 0 -1px 0 0 #B2B2B2; }
+  .results-search .draw-number-row {
+    line-height: 56px; }
+  .results-search .draw-number-row-keno {
+    line-height: 38px; }
+  .results-search .draw-number-row-lucky {
+    line-height: 48px; }
+  .results-search .show-dividends-row {
+    line-height: 32px; }
+  .results-search .show-dividends-row-lucky {
+    line-height: 48px; }
+  .results-search .no-dividend {
+    color: #767676;
+    float: right;
+    min-width: 11.5625rem; }
+    @media screen and (max-width: 47.9375em) {
+      .results-search .no-dividend {
+        min-width: 10.3125rem; } }
+    .results-search .no-dividend.no-dividend-lucky {
+      min-width: 21rem; }
+      @media screen and (max-width: 47.9375em) {
+        .results-search .no-dividend.no-dividend-lucky {
+          min-width: 18.75rem; } }
+  .results-search .numbers-row {
+    line-height: 32px; }
+  .results-search .numbers-row-keno {
+    max-width: 310px !important; }
+  .results-search .draws-found {
+    color: #767676;
+    font-size: 12px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    line-height: 18px; }
+  .results-search .draws-found-top {
+    padding-top: 24px; }
+  .results-search .draws-found-bottom {
+    padding-bottom: 0px; }
+  .results-search .toggle-dividends {
+    color: #6C4796;
+    cursor: pointer;
+    text-decoration: underline;
+    float: right;
+    min-width: 8.4375rem; }
+    @media screen and (max-width: 47.9375em) {
+      .results-search .toggle-dividends {
+        min-width: 7.5rem; } }
+    .results-search .toggle-dividends.toggle-dividends-lucky {
+      min-width: 6.5rem; }
+      @media screen and (max-width: 47.9375em) {
+        .results-search .toggle-dividends.toggle-dividends-lucky {
+          min-width: 6.1875rem; } }
+  .results-search .watch-video {
+    color: #6C4796;
+    cursor: pointer;
+    text-decoration: underline; }
+  .results-search .coin-toss-logo {
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/ico--knoct-circle-logo@2x.png');
+    float: left;
+    margin-right: 4px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min--moz-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25 / 1), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 1.25dppx) {
+      .results-search .coin-toss-logo {
+        background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/ico--knoct-circle-logo@3x.png'); } }
+  .results-search .super-jackpot-logo {
+    width: 51px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 51px;
+    background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/logo--lkytab-super@2x.png');
+    float: left;
+    margin-top: 14px;
+    margin-right: 16px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min--moz-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25 / 1), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 1.25dppx) {
+      .results-search .super-jackpot-logo {
+        background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/logo--lkytab-super@3x.png'); } }
+  .results-search .mega-jackpot-logo {
+    width: 51px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 51px;
+    background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/logo--lkytab-mega@2x.png');
+    float: left;
+    margin-top: 14px;
+    margin-right: 16px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min--moz-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25 / 1), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 1.25dppx) {
+      .results-search .mega-jackpot-logo {
+        background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/logo--lkytab-mega@3x.png'); } }
+  .results-search .lucky-draw-number {
+    float: left; }
+  .results-search .heads-tails {
+    width: 60px;
+    height: 28px;
+    font-weight: 700;
+    color: #0750A4;
+    background-color: #FEE400;
+    line-height: 28px;
+    float: left; }
+  .results-search .heads-tails-row {
+    padding-top: 16px;
+    padding-bottom: 16px; }
+  .results-search .heads-tails-details {
+    width: 92px;
+    margin-left: 0px; }
+  .results-search .prize-text {
+    color: #767676; }
+  .results-search .display-draws-from {
+    padding-bottom: 3px; }
+  .results-search .sfl-terms {
+    color: #767676;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 0 16px 0; }
+  .results-search option[disabled] {
+    color: #767676; }
+  @media print, screen and (min-width: 48em) {
+    .results-search {
+      font-size: 16px; }
+      .results-search .dividend-header-row {
+        padding-bottom: 12px;
+        padding-top: 12px;
+        line-height: 24px; }
+      .results-search .dividend-row {
+        padding-bottom: 12px;
+        padding-top: 12px;
+        line-height: 24px; }
+      .results-search .draws-found {
+        line-height: 20px; }
+      .results-search .prize-text {
+        color: #444444; }
+      .results-search .super-jackpot-logo {
+        width: 68px;
+        height: 32px;
+        background-size: 68px;
+        margin-right: 31px; }
+      .results-search .mega-jackpot-logo {
+        width: 68px;
+        height: 32px;
+        background-size: 68px;
+        margin-right: 31px; }
+      .results-search .draw-number-row-lucky {
+        line-height: 56px; }
+      .results-search .show-dividends-row-lucky {
+        line-height: 40px; } }
+  @media print, screen and (min-width: 48em) {
+    .results-search .draw-number-row-keno {
+      line-height: 92px; }
+    .results-search .heads-tails-details {
+      width: 92px;
+      margin-left: 13px; } }
+  .results-search .xsmall-shrink {
+    flex: 0 0 auto;
+    max-width: 100%; }
+  @media print, screen and (min-width: 48em) {
+    .results-search .medium-shrink {
+      flex: 0 0 auto;
+      max-width: 100%; } }
+  @media print, screen and (min-width: 64em) {
+    .results-search .large-shrink {
+      flex: 0 0 auto;
+      max-width: 100%; } }
+  @media screen and (min-width: 75em) {
+    .results-search .xlarge-shrink {
+      flex: 0 0 auto;
+      max-width: 100%; } }
+  .results-search .ticket-number-lucky {
+    text-align: right; }
+  @media print, screen and (min-width: 40em) {
+    .results-search .ticket-number-lucky {
+      text-align: left; } }
+  .results-search slide-button {
+    width: 288px; }
+  .results-search .draw-number-input-container {
+    width: 204px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left; }
+    .results-search .draw-number-input-container input {
+      margin-top: 5px;
+      margin-bottom: 3px;
+      border: 1px solid #C8C8C8;
+      border-radius: 3px;
+      background-color: #FFFFFF;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
+  .results-search .search-options {
+    margin: 0 0 1rem 0; }
+  .results-search .no-draws-found .draws-found &gt; div {
+    margin: auto;
+    text-align: center; }
+  .results-search .fullResults {
+    color: #6C4796;
+    cursor: pointer;
+    text-decoration: underline; }
+
+.ux-dialog-static {
+  position: static !important; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+filtering-and-sorting {
+  display: block;
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #E8E8E8; }
+  filtering-and-sorting &gt; div {
+    display: inline-block; }
+    filtering-and-sorting &gt; div.filter {
+      width: 60%;
+      padding-right: 1rem; }
+    filtering-and-sorting &gt; div.sorting {
+      width: 40%;
+      padding-left: 1rem; }
+      filtering-and-sorting &gt; div.sorting label {
+        font-size: .875rem;
+        line-height: 1.25rem; }
+      filtering-and-sorting &gt; div.sorting select {
+        margin: .25rem 0 0 0; }
+    @media screen and (max-width: 47.9375em) {
+      filtering-and-sorting &gt; div {
+        display: block !important;
+        width: auto !important;
+        padding: 0 !important; }
+        filtering-and-sorting &gt; div.filter {
+          margin-bottom: 1rem; } }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+number-chart {
+  display: inline-block;
+  padding: 0;
+  vertical-align: top; }
+  @media screen and (max-width: 47.9375em) {
+    number-chart {
+      padding: 0; } }
+  number-chart h2 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 1.125rem;
+    line-height: 1.625rem; }
+  number-chart ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    column-count: 3;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem; }
+    @media screen and (max-width: 63.9375em) {
+      number-chart ol {
+        column-count: 2; } }
+    @media screen and (max-width: 39.9375em) {
+      number-chart ol {
+        column-count: 1; } }
+  number-chart.has-sibling ol {
+    column-count: 2; }
+    @media screen and (max-width: 63.9375em) {
+      number-chart.has-sibling ol {
+        column-count: 1; } }
+  number-chart.secondary-numbers ol {
+    column-count: 1; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.cart-preview-menu {
+  position: absolute;
+  right: 0;
+  top: 81px;
+  clip: rect(0, 9999px, 9999px, -9999px);
+  height: 0; }
+  @media screen and (max-width: 47.9375em) {
+    .cart-preview-menu {
+      top: 51px; } }
+  .cart-preview-menu .cart-preview-menu-slider {
+    width: 12.25rem;
+    height: 13.25rem;
+    padding: 1.5rem 1rem;
+    background-color: #F6F4F9;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3); }
+  .cart-preview-menu button {
+    outline: none;
+    cursor: pointer; }
+  .cart-preview-menu.off .cart-preview-menu-slider {
+    transition: transform ease-in-out .3s, opacity ease-out .3s;
+    transform: translateY(-100%);
+    opacity: 0; }
+  .cart-preview-menu.on .cart-preview-menu-slider {
+    transition: transform ease-in-out .3s, opacity ease-in .3s;
+    transform: translateY(0);
+    opacity: 1; }
+  .cart-preview-menu .cart-preview-menu-header {
+    padding: 0 0 1rem; }
+    .cart-preview-menu .cart-preview-menu-header .menu-bold {
+      font-weight: 900; }
+    .cart-preview-menu .cart-preview-menu-header .menu-line {
+      position: relative;
+      font-size: 14px;
+      height: 24px;
+      line-height: 24px; }
+      .cart-preview-menu .cart-preview-menu-header .menu-line button {
+        line-height: 24px; }
+      .cart-preview-menu .cart-preview-menu-header .menu-line .page-refresh-container {
+        height: 28px;
+        width: 28px;
+        top: -6px;
+        cursor: pointer; }
+      .cart-preview-menu .cart-preview-menu-header .menu-line .page-refresh {
+        background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/ico-refresh.svg');
+        height: 18px;
+        width: 18px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain; }
+        .cart-preview-menu .cart-preview-menu-header .menu-line .page-refresh.loading {
+          -webkit-animation-name: spin;
+          -webkit-animation-duration: 800ms;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-timing-function: ease-in-out;
+          -moz-animation-name: spin;
+          -moz-animation-duration: 800ms;
+          -moz-animation-iteration-count: infinite;
+          -moz-animation-timing-function: ease-in-out;
+          -ms-animation-name: spin;
+          -ms-animation-duration: 800ms;
+          -ms-animation-iteration-count: infinite;
+          -ms-animation-timing-function: ease-in-out;
+          -o-transition: rotate(3600deg); }
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+      .cart-preview-menu .cart-preview-menu-header .menu-line .line-right {
+        position: absolute;
+        right: 0; }
+      .cart-preview-menu .cart-preview-menu-header .menu-line .menu-title {
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000; }
+  .cart-preview-menu .cart-preview-menu-content .menu-line {
+    position: relative;
+    height: 1.5rem;
+    line-height: 1.5rem; }
+    .cart-preview-menu .cart-preview-menu-content .menu-line button {
+      line-height: 1.5rem; }
+  .cart-preview-menu .cart-preview-menu-content .cart-preview-menu-row {
+    display: flex; }
+    .cart-preview-menu .cart-preview-menu-content .cart-preview-menu-row.contents {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 4rem;
+      border-bottom: 1px #DAD1E5 solid;
+      border-top: 1px #DAD1E5 solid; }
+    .cart-preview-menu .cart-preview-menu-content .cart-preview-menu-row.checkout {
+      margin-top: 1.5rem;
+      justify-content: space-around; }
+      .cart-preview-menu .cart-preview-menu-content .cart-preview-menu-row.checkout .button {
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        width: 10.25rem;
+        padding: 0.3125em 1em; }
+  .cart-preview-menu .cart-preview-menu-content .icon-description {
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+  .cart-preview-menu .cart-preview-menu-content .icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .cart-preview-menu .cart-preview-menu-content .icon-wrapper .brand-circle-logo {
+      width: 40px;
+      height: 40px;
+      background-size: contain;
+      border-radius: 50%;
+      margin-right: -25px; }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+number-chart-item {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  display: block;
+  padding: .5rem .5rem .5rem 2.5rem;
+  box-shadow: inset 0 -1px 0 0 #e8e8e8;
+  position: relative;
+  font-size: 0; }
+  number-chart-item .ball-number {
+    position: absolute;
+    left: 0;
+    top: .5rem;
+    display: inline-block;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: .875rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 900; }
+    number-chart-item .ball-number &gt; span {
+      display: inline-block;
+      position: relative; }
+      number-chart-item .ball-number &gt; span.pop-it-like-its-hot-add {
+        -webkit-animation: number-pop .2s linear;
+        animation: number-pop .2s linear;
+        animation-fill-mode: both; }
+  number-chart-item &gt; .chart-label {
+    display: block;
+    font-size: .75rem;
+    line-height: 1.125rem;
+    white-space: nowrap;
+    vertical-align: top;
+    width: 100%; }
+  number-chart-item .chart {
+    vertical-align: top;
+    transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    display: inline-block;
+    border-radius: .375rem;
+    height: .75rem; }
+    number-chart-item .chart.combo.chart-frequency {
+      border-radius: .125rem 0 0 .125rem !important; }
+    number-chart-item .chart.combo.chart-since-drawn {
+      border-radius: 0 .125rem .125rem 0 !important; }
+    number-chart-item .chart.chart-frequency {
+      background: linear-gradient(90deg, #f5c444 0, #e38d39 132.7392px, #d64e34 264px); }
+    number-chart-item .chart.chart-since-drawn {
+      background: linear-gradient(90deg, #64bcae 0, #3f8ac6 132.7392px, #293686 264px); }
+
+@keyframes number-pop {
+  0% {
+    transform: scale(1, 1);
+    opacity: 0; }
+  49% {
+    transform: scale(1, 1);
+    opacity: 0; }
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: .5; }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1; } }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+/* Animations */
+@keyframes enterLeft {
+  from {
+    left: -100px;
+    opacity: 0;
+    visibility: visible;
+    display: block; }
+  to {
+    left: 0px;
+    opacity: 1; } }
+
+@keyframes enterRight {
+  from {
+    left: 100px;
+    opacity: 0;
+    visibility: visible;
+    display: block; }
+  to {
+    left: 0px;
+    opacity: 1; } }
+
+@keyframes exitLeft {
+  0% {
+    left: 0px; }
+  100% {
+    left: 100px; } }
+
+@keyframes exitRight {
+  0% {
+    left: 0px; }
+  100% {
+    left: -100px; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  99% {
+    opacity: 0;
+    visibility: visible;
+    display: block; }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    display: none; } }
+
+@keyframes pop {
+  0% {
+    font-size: 1.5rem;
+    opacity: 0; }
+  49% {
+    font-size: 1.5rem;
+    opacity: 0; }
+  50% {
+    font-size: 2rem;
+    opacity: 0.5; }
+  100% {
+    font-size: 1.5rem;
+    opacity: 1; } }
+
+@keyframes pop-numerical {
+  0% {
+    font-size: 1.5rem;
+    opacity: 0; }
+  49% {
+    font-size: 1.5rem;
+    opacity: 0; }
+  50% {
+    font-size: 2rem;
+    opacity: 0.5; }
+  100% {
+    font-size: 1.5rem;
+    opacity: 1; } }
+
+@keyframes pop-xsmall {
+  0% {
+    font-size: 1rem;
+    opacity: 0; }
+  49% {
+    font-size: 1rem;
+    opacity: 0; }
+  50% {
+    font-size: 1.25rem;
+    opacity: 0.5; }
+  100% {
+    font-size: 0.875rem;
+    opacity: 1; } }
+
+@keyframes pop-xsmall-numerical {
+  0% {
+    font-size: 1rem;
+    opacity: 0; }
+  49% {
+    font-size: 1rem;
+    opacity: 0; }
+  50% {
+    font-size: 1.25rem;
+    opacity: 0.5; }
+  100% {
+    font-size: 0.875rem;
+    opacity: 1; } }
+
+.results .results-header {
+  color: #000000;
+  margin: 2rem 0 1rem 1rem; }
+
+.results .hidden-model {
+  visibility: hidden; }
+
+.results .visibile-model {
+  visibility: visible; }
+
+.results .hidden-result {
+  display: none; }
+
+.results product-results {
+  position: relative;
+  display: block; }
+
+.results .prevModel {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  -webkit-animation: fadeOut 0.5s;
+  animation: fadeOut 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+  animation-fill-mode: forwards; }
+  .results .prevModel.moving-right .drawname, .results .prevModel.moving-right .drawdate {
+    opacity: 0; }
+  .results .prevModel.moving-left .drawname, .results .prevModel.moving-left .drawdate {
+    opacity: 0; }
+  .results .prevModel .product-result &gt; .product-result-header .arrow, .results .prevModel .product-result &gt; .product-result-header .arrow-text {
+    opacity: 0; }
+  .results .prevModel .product-result &gt; .product-result-header .lucky-header-tabs {
+    opacity: 0; }
+  .results .prevModel .product-result &gt; .product-result-body .winninglabel {
+    opacity: 0; }
+  .results .prevModel .product-result &gt; .product-result-body .suppslabel {
+    opacity: 0; }
+
+.results .currentModel {
+  position: relative;
+  z-index: 1; }
+  .results .currentModel.moving-right .drawname, .results .currentModel.moving-right .drawdate {
+    -webkit-animation: enterRight 0.5s;
+    animation: enterRight 0.5s; }
+  .results .currentModel.moving-left .drawname, .results .currentModel.moving-left .drawdate {
+    -webkit-animation: enterLeft 0.5s;
+    animation: enterLeft 0.5s; }
+  .results .currentModel .product-result-footer,
+  .results .currentModel .product-result-body .dividends,
+  .results .currentModel .product-result-body .jackpot,
+  .results .currentModel .product-result-body .number,
+  .results .currentModel .product-result-body .suppsnumber,
+  .results .currentModel .product-result-body .drawnumbers {
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s; }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-0 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-0 span {
+        -webkit-animation: pop 0.2s linear 0.1s;
+        animation: pop 0.2s linear 0.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-0 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.1s;
+        animation: pop-xsmall 0.2s linear 0.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-1 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-1 span {
+        -webkit-animation: pop 0.2s linear 0.2s;
+        animation: pop 0.2s linear 0.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-1 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.2s;
+        animation: pop-xsmall 0.2s linear 0.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-2 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-2 span {
+        -webkit-animation: pop 0.2s linear 0.3s;
+        animation: pop 0.2s linear 0.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-2 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.3s;
+        animation: pop-xsmall 0.2s linear 0.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-3 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-3 span {
+        -webkit-animation: pop 0.2s linear 0.4s;
+        animation: pop 0.2s linear 0.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-3 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.4s;
+        animation: pop-xsmall 0.2s linear 0.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-4 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-4 span {
+        -webkit-animation: pop 0.2s linear 0.5s;
+        animation: pop 0.2s linear 0.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-4 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.5s;
+        animation: pop-xsmall 0.2s linear 0.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-5 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-5 span {
+        -webkit-animation: pop 0.2s linear 0.6s;
+        animation: pop 0.2s linear 0.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-5 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.6s;
+        animation: pop-xsmall 0.2s linear 0.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-6 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-6 span {
+        -webkit-animation: pop 0.2s linear 0.7s;
+        animation: pop 0.2s linear 0.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-6 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.7s;
+        animation: pop-xsmall 0.2s linear 0.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-7 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-7 span {
+        -webkit-animation: pop 0.2s linear 0.8s;
+        animation: pop 0.2s linear 0.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-7 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.8s;
+        animation: pop-xsmall 0.2s linear 0.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-8 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-8 span {
+        -webkit-animation: pop 0.2s linear 0.9s;
+        animation: pop 0.2s linear 0.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-8 span {
+        -webkit-animation: pop-xsmall 0.2s linear 0.9s;
+        animation: pop-xsmall 0.2s linear 0.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-9 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-9 span {
+        -webkit-animation: pop 0.2s linear 1s;
+        animation: pop 0.2s linear 1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-9 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1s;
+        animation: pop-xsmall 0.2s linear 1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-10 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-10 span {
+        -webkit-animation: pop 0.2s linear 1.1s;
+        animation: pop 0.2s linear 1.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-10 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.1s;
+        animation: pop-xsmall 0.2s linear 1.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-11 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-11 span {
+        -webkit-animation: pop 0.2s linear 1.2s;
+        animation: pop 0.2s linear 1.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-11 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.2s;
+        animation: pop-xsmall 0.2s linear 1.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-12 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-12 span {
+        -webkit-animation: pop 0.2s linear 1.3s;
+        animation: pop 0.2s linear 1.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-12 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.3s;
+        animation: pop-xsmall 0.2s linear 1.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-13 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-13 span {
+        -webkit-animation: pop 0.2s linear 1.4s;
+        animation: pop 0.2s linear 1.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-13 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.4s;
+        animation: pop-xsmall 0.2s linear 1.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-14 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-14 span {
+        -webkit-animation: pop 0.2s linear 1.5s;
+        animation: pop 0.2s linear 1.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-14 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.5s;
+        animation: pop-xsmall 0.2s linear 1.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-15 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-15 span {
+        -webkit-animation: pop 0.2s linear 1.6s;
+        animation: pop 0.2s linear 1.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-15 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.6s;
+        animation: pop-xsmall 0.2s linear 1.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-16 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-16 span {
+        -webkit-animation: pop 0.2s linear 1.7s;
+        animation: pop 0.2s linear 1.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-16 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.7s;
+        animation: pop-xsmall 0.2s linear 1.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-17 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-17 span {
+        -webkit-animation: pop 0.2s linear 1.8s;
+        animation: pop 0.2s linear 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-17 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.8s;
+        animation: pop-xsmall 0.2s linear 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-18 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-18 span {
+        -webkit-animation: pop 0.2s linear 1.9s;
+        animation: pop 0.2s linear 1.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-18 span {
+        -webkit-animation: pop-xsmall 0.2s linear 1.9s;
+        animation: pop-xsmall 0.2s linear 1.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-19 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-19 span {
+        -webkit-animation: pop 0.2s linear 2s;
+        animation: pop 0.2s linear 2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-drawn .number-container.drawn-pop-order-19 span {
+        -webkit-animation: pop-xsmall 0.2s linear 2s;
+        animation: pop-xsmall 0.2s linear 2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-0 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-0 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.1s;
+        animation: pop-numerical 0.2s linear 0.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-0 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.1s;
+        animation: pop-xsmall-numerical 0.2s linear 0.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-1 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-1 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.2s;
+        animation: pop-numerical 0.2s linear 0.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-1 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.2s;
+        animation: pop-xsmall-numerical 0.2s linear 0.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-2 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-2 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.3s;
+        animation: pop-numerical 0.2s linear 0.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-2 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.3s;
+        animation: pop-xsmall-numerical 0.2s linear 0.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-3 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-3 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.4s;
+        animation: pop-numerical 0.2s linear 0.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-3 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.4s;
+        animation: pop-xsmall-numerical 0.2s linear 0.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-4 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-4 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.5s;
+        animation: pop-numerical 0.2s linear 0.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-4 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.5s;
+        animation: pop-xsmall-numerical 0.2s linear 0.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-5 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-5 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.6s;
+        animation: pop-numerical 0.2s linear 0.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-5 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.6s;
+        animation: pop-xsmall-numerical 0.2s linear 0.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-6 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-6 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.7s;
+        animation: pop-numerical 0.2s linear 0.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-6 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.7s;
+        animation: pop-xsmall-numerical 0.2s linear 0.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-7 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-7 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.8s;
+        animation: pop-numerical 0.2s linear 0.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-7 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.8s;
+        animation: pop-xsmall-numerical 0.2s linear 0.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-8 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-8 span {
+        -webkit-animation: pop-numerical 0.2s linear 0.9s;
+        animation: pop-numerical 0.2s linear 0.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-8 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 0.9s;
+        animation: pop-xsmall-numerical 0.2s linear 0.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-9 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-9 span {
+        -webkit-animation: pop-numerical 0.2s linear 1s;
+        animation: pop-numerical 0.2s linear 1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-9 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1s;
+        animation: pop-xsmall-numerical 0.2s linear 1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-10 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-10 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.1s;
+        animation: pop-numerical 0.2s linear 1.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-10 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.1s;
+        animation: pop-xsmall-numerical 0.2s linear 1.1s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-11 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-11 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.2s;
+        animation: pop-numerical 0.2s linear 1.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-11 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.2s;
+        animation: pop-xsmall-numerical 0.2s linear 1.2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-12 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-12 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.3s;
+        animation: pop-numerical 0.2s linear 1.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-12 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.3s;
+        animation: pop-xsmall-numerical 0.2s linear 1.3s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-13 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-13 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.4s;
+        animation: pop-numerical 0.2s linear 1.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-13 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.4s;
+        animation: pop-xsmall-numerical 0.2s linear 1.4s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-14 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-14 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.5s;
+        animation: pop-numerical 0.2s linear 1.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-14 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.5s;
+        animation: pop-xsmall-numerical 0.2s linear 1.5s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-15 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-15 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.6s;
+        animation: pop-numerical 0.2s linear 1.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-15 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.6s;
+        animation: pop-xsmall-numerical 0.2s linear 1.6s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-16 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-16 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.7s;
+        animation: pop-numerical 0.2s linear 1.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-16 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.7s;
+        animation: pop-xsmall-numerical 0.2s linear 1.7s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-17 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-17 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.8s;
+        animation: pop-numerical 0.2s linear 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-17 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.8s;
+        animation: pop-xsmall-numerical 0.2s linear 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-18 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-18 span {
+        -webkit-animation: pop-numerical 0.2s linear 1.9s;
+        animation: pop-numerical 0.2s linear 1.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-18 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 1.9s;
+        animation: pop-xsmall-numerical 0.2s linear 1.9s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+  .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-19 span {
+    opacity: 0; }
+    @media screen and (min-width: 48em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-19 span {
+        -webkit-animation: pop-numerical 0.2s linear 2s;
+        animation: pop-numerical 0.2s linear 2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+    @media screen and (max-width: 47.9375em) {
+      .results .currentModel .product-result .sort-by-numeric .number-container.numeric-pop-order-19 span {
+        -webkit-animation: pop-xsmall-numerical 0.2s linear 2s;
+        animation: pop-xsmall-numerical 0.2s linear 2s;
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-fill-mode: forwards; } }
+
+.product-result &gt; .product-result-header .nav-button-container {
+  position: absolute;
+  top: .75rem; }
+  .product-result &gt; .product-result-header .nav-button-container.prev {
+    left: 0; }
+  .product-result &gt; .product-result-header .nav-button-container.next {
+    right: 0; }
+
+.product-result &gt; .product-result-header .drawprev {
+  background-image: url('/etc/designs/the-lott/components/content/result-details/clientlibs/assets/ico--back-OFF.svg'); }
+
+.product-result &gt; .product-result-header .drawprev.enabled {
+  background-image: url('/etc/designs/the-lott/components/content/result-details/clientlibs/assets/ico--back-ON.svg'); }
+
+.product-result &gt; .product-result-header .drawnext {
+  background-image: url('/etc/designs/the-lott/components/content/result-details/clientlibs/assets/ico--forward-OFF.svg'); }
+
+.product-result &gt; .product-result-header .drawnext.enabled {
+  background-image: url('/etc/designs/the-lott/components/content/result-details/clientlibs/assets/ico--forward-ON.svg'); }
+
+.product-result &gt; .product-result-header .arrow {
+  color: #ffffff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  width: 2.75rem;
+  height: 2.75rem; }
+
+.product-result &gt; .product-result-header .arrow.disabled {
+  background-color: #FAFAFA;
+  border-color: #E8E8E8;
+  border-width: 2px;
+  border-style: solid;
+  cursor: auto; }
+
+.product-result &gt; .product-result-header .arrow-text {
+  color: #E8E8E8;
+  font-size: 10px;
+  line-height: 12px;
+  position: absolute;
+  top: 10px; }
+  @media print, screen and (min-width: 48em) {
+    .product-result &gt; .product-result-header .arrow-text {
+      font-size: 12px;
+      line-height: 14px;
+      top: 8px; } }
+  .product-result &gt; .product-result-header .arrow-text.prev {
+    left: 50px; }
+  .product-result &gt; .product-result-header .arrow-text.next {
+    right: 50px;
+    text-align: right; }
+  .product-result &gt; .product-result-header .arrow-text.enabled {
+    color: #767676; }
+
+.product-result &gt; .product-result-header .drawname {
+  padding-top: 0.75rem;
+  width: 100%;
+  line-height: 1.875rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  color: #000000; }
+
+.product-result &gt; .product-result-header .drawname h3 {
+  margin-bottom: 0;
+  font-weight: 900; }
+
+.product-result &gt; .product-result-header .drawdate {
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444444;
+  text-align: center;
+  margin-top: -0.125rem;
+  position: relative; }
+  @media screen and (max-width: 47.9375em) {
+    .product-result &gt; .product-result-header .drawdate {
+      font-size: 0.875rem;
+      line-height: 1.25rem; } }
+
+.product-result &gt; .product-result-header .lucky-header-tabs {
+  margin-left: -6rem;
+  margin-right: -6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-bottom: 1rem;
+  box-shadow: inset 0 0px 0 0 rgba(0, 0, 0, 0.2), inset 0 -0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  overflow-y: hidden;
+  text-align: center; }
+  @media screen and (max-width: 47.9375em) {
+    .product-result &gt; .product-result-header .lucky-header-tabs {
+      padding-left: 1rem;
+      padding-right: 1rem; } }
+  .product-result &gt; .product-result-header .lucky-header-tabs .lucky-header-tab {
+    height: 56px;
+    max-width: 167px;
+    width: 45%;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+    background: radial-gradient(circle, #FDFDFC 0%, #CDD1D0 100%);
+    box-shadow: inset 0 0px 0 0 rgba(0, 0, 0, 0.2), inset 0 -0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    padding: 9px;
+    top: 9px; }
+    @media screen and (max-width: 47.9375em) {
+      .product-result &gt; .product-result-header .lucky-header-tabs .lucky-header-tab {
+        margin-left: 4px;
+        margin-right: 4px; } }
+    @media screen and (max-width: 39.9375em) {
+      .product-result &gt; .product-result-header .lucky-header-tabs .lucky-header-tab {
+        max-width: 115px; } }
+    .product-result &gt; .product-result-header .lucky-header-tabs .lucky-header-tab .lucky-tab-logo {
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
+    .product-result &gt; .product-result-header .lucky-header-tabs .lucky-header-tab.active {
+      background: none;
+      box-shadow: none;
+      background-color: #ffffff;
+      top: 9px;
+      padding: 5px; }
+      .product-result &gt; .product-result-header .lucky-header-tabs .lucky-header-tab.active.luckylotteries2 {
+        border: 4px solid #109CBC; }
+      .product-result &gt; .product-result-header .lucky-header-tabs .lucky-header-tab.active.luckylotteries5 {
+        border: 4px solid #CC157F; }
+
+.product-result &gt; .product-result-body {
+  position: relative; }
+  .product-result &gt; .product-result-body div.lucky.jackpot {
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+    @media screen and (max-width: 47.9375em) {
+      .product-result &gt; .product-result-body div.lucky.jackpot {
+        font-size: 0.875rem;
+        line-height: 1.75rem; } }
+    .product-result &gt; .product-result-body div.lucky.jackpot .keno-jackpot-notwon-text {
+      white-space: nowrap; }
+  .product-result &gt; .product-result-body div.separator {
+    height: 1.5rem; }
+  .product-result &gt; .product-result-body .coin-toss {
+    margin-top: 2rem;
+    margin-bottom: 0; }
+    .product-result &gt; .product-result-body .coin-toss .coin-toss-logo {
+      height: 48px;
+      background-repeat: no-repeat;
+      background-position: 1rem;
+      background-size: 48px;
+      background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/ico--knoct-circle-logo@2x.png'); }
+      @media screen and (max-width: 47.9375em) {
+        .product-result &gt; .product-result-body .coin-toss .coin-toss-logo {
+          background-position: 0; } }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min--moz-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25 / 1), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 1.25dppx) {
+        .product-result &gt; .product-result-body .coin-toss .coin-toss-logo {
+          background-image: url('/etc/designs/the-lott/components/structure/page-template/clientlibs/images/logo/products/ico--knoct-circle-logo@3x.png'); } }
+    .product-result &gt; .product-result-body .coin-toss .unselected {
+      line-height: 3rem;
+      color: #767676; }
+    .product-result &gt; .product-result-body .coin-toss .selected {
+      line-height: 3rem;
+      font-weight: 700;
+      color: #0750A4;
+      background-color: #FEE400; }
+  .product-result &gt; .product-result-body .brand-results-numbers {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1.5rem 0 0 0;
+    height: 100%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #000000; }
+    .product-result &gt; .product-result-body .brand-results-numbers.no-sorting {
+      padding-bottom: 2rem; }
+    @media screen and (max-width: 47.9375em) {
+      .product-result &gt; .product-result-body .brand-results-numbers .winning-numbers, .product-result &gt; .product-result-body .brand-results-numbers .supp-numbers {
+        padding: 0 0.25rem; } }
+    @media screen and (min-width: 48em) {
+      .product-result &gt; .product-result-body .brand-results-numbers .winning-numbers {
+        margin: 0 1.5rem; } }
+    .product-result &gt; .product-result-body .brand-results-numbers .keno-numbers-container {
+      text-align: center; }
+    .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container {
+      width: 100%;
+      max-width: 580px; }
+      @media screen and (max-width: 47.9375em) {
+        .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container {
+          max-width: 320px; }
+          .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container .winning-numbers, .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container .supp-numbers {
+            padding: 0; }
+            .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container .winning-numbers .number-container .number, .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container .winning-numbers .number-container .suppsnumber, .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container .supp-numbers .number-container .number, .product-result &gt; .product-result-body .brand-results-numbers .setforlife-numbers-container .supp-numbers .number-container .suppsnumber {
+              margin-right: 0.125rem;
+              margin-top: 0; } }
+    .product-result &gt; .product-result-body .brand-results-numbers .keno-numbers {
+      width: 100%;
+      max-width: 456px;
+      text-align: left;
+      display: inline-block; }
+      @media screen and (max-width: 47.9375em) {
+        .product-result &gt; .product-result-body .brand-results-numbers .keno-numbers {
+          max-width: 280px; } }
+    .product-result &gt; .product-result-body .brand-results-numbers .number-container {
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      padding: 0; }
+      .product-result &gt; .product-result-body .brand-results-numbers .number-container .number, .product-result &gt; .product-result-body .brand-results-numbers .number-container .suppsnumber {
+        width: 3rem;
+        height: 3rem;
+        display: inline-block;
+        line-height: 3rem;
+        min-height: 3rem;
+        min-width: 3rem;
+        margin-right: 0.5rem;
+        -webkit-border-radius: 1.5rem;
+        -moz-border-radius: 1.5rem;
+        -ms-border-radius: 1.5rem;
+        border-radius: 1.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-top: 4px;
+        position: relative; }
+        .product-result &gt; .product-result-body .brand-results-numbers .number-container .number span, .product-result &gt; .product-result-body .brand-results-numbers .number-container .suppsnumber span {
+          position: absolute;
+          left: 0;
+          right: 0; }
+        @media screen and (max-width: 47.9375em) {
+          .product-result &gt; .product-result-body .brand-results-numbers .number-container .number, .product-result &gt; .product-result-body .brand-results-numbers .number-container .suppsnumber {
+            width: 1.5rem;
+            height: 1.5rem;
+            line-height: 1.8rem;
+            font-size: 0.875rem;
+            min-height: 1.75rem;
+            min-width: 1.75rem;
+            margin-right: 0.25rem; } }
+  .product-result &gt; .product-result-body .dividends {
+    margin-left: 0;
+    margin-right: 0; }
+    .product-result &gt; .product-result-body .dividends ul {
+      margin: 0; }
+    .product-result &gt; .product-result-body .dividends .dividend-row {
+      padding: 0.75rem 0;
+      box-shadow: inset 0 -1px 0 0 #E8E8E8; }
+    .product-result &gt; .product-result-body .dividends .dividend-row div {
+      padding-left: 1rem;
+      color: #444444; }
+      @media screen and (max-width: 47.9375em) {
+        .product-result &gt; .product-result-body .dividends .dividend-row div {
+          font-size: 0.875rem;
+          line-height: 1.25rem; } }
+      .product-result &gt; .product-result-body .dividends .dividend-row div.prize-small {
+        color: #888888; }
+    .product-result &gt; .product-result-body .dividends .dividend-header {
+      padding-bottom: 0.75rem;
+      padding-top: 0.75rem;
+      background-color: #E8E8E8;
+      box-shadow: inset 0 -1px 0 0 #B2B2B2; }
+    .product-result &gt; .product-result-body .dividends .dividend-header div {
+      padding-left: 1rem;
+      color: #000000; }
+      @media screen and (max-width: 47.9375em) {
+        .product-result &gt; .product-result-body .dividends .dividend-header div {
+          font-size: 0.875rem;
+          line-height: 1.25rem; } }
+    .product-result &gt; .product-result-body .dividends .disclaimer {
+      font-size: 12px;
+      color: #767676;
+      font-weight: 500; }
+
+.product-result &gt; .product-result-footer {
+  padding: 1rem 0.5rem;
+  display: block; }
+  @media screen and (max-width: 47.9375em) {
+    .product-result &gt; .product-result-footer {
+      padding-left: 0;
+      padding-right: 0; } }
+  @media screen and (max-width: 47.9375em) {
+    .product-result &gt; .product-result-footer &gt; div {
+      margin-left: 0;
+      margin-right: 0; } }
+  .product-result &gt; .product-result-footer a {
+    margin: 0.5rem 0.5rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    height: 44px;
+    font-weight: 900;
+    width: 30%;
+    max-width: 288px; }
+    @media screen and (max-width: 47.9375em) {
+      .product-result &gt; .product-result-footer a {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        width: 100%;
+        max-width: none; } }
+  .product-result &gt; .product-result-footer watch-draw-video {
+    width: 30%;
+    max-width: 288px;
+    height: 44px;
+    margin: 0.5rem 0.5rem; }
+    @media screen and (max-width: 47.9375em) {
+      .product-result &gt; .product-result-footer watch-draw-video {
+        width: 100%;
+        max-width: none; } }
+    .product-result &gt; .product-result-footer watch-draw-video button {
+      font-weight: 900;
+      font-size: 1rem; }
+      @media screen and (max-width: 47.9375em) {
+        .product-result &gt; .product-result-footer watch-draw-video button {
+          font-size: 0.875rem;
+          line-height: 1.25rem; } }
+    .product-result &gt; .product-result-footer watch-draw-video.hidden {
+      width: 0;
+      height: 0;
+      margin: 0; }
+
+.results .page-header h1 {
+  margin: 1rem; }
+  @media screen and (max-width: 47.9375em) {
+    .results .page-header h1 {
+      margin: 0 0.5rem; } }
+
+.results .text-container {
+  padding: 2rem 1rem 1rem 1rem; }
+  @media screen and (max-width: 47.9375em) {
+    .results .text-container {
+      padding: 2rem 0.5rem 1rem 0.5rem; } }
+
+.results .results-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: -2rem;
+  margin-left: -2rem;
+  overflow: hidden; }
+  @media screen and (max-width: 47.9375em) {
+    .results .results-container {
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: -0.5rem;
+      margin-left: -0.5rem; } }
+  @media screen and (max-width: 39.9375em) {
+    .results .results-container {
+      padding-left: 0;
+      padding-right: 0; } }
+  .results .results-container .keno .product-result-footer .brand-button-primary {
+    background-color: #0750A4; }
+
+.divs-pending-container {
+  background-color: #FAFAFA;
+  border: 1px solid #E8E8E8;
+  height: 256px;
+  position: relative; }
+
+.divs-pending-icon {
+  background: transparent url('/etc/designs/the-lott/components/content/result-details/clientlibs/assets/ico-calculator.svg') no-repeat center;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin: 1rem; }
+  @media screen and (max-width: 47.9375em) {
+    .divs-pending-icon {
+      margin: 0.5rem; } }
+  .divs-pending-icon.lucky-lotteries {
+    background: transparent url('/etc/designs/the-lott/components/content/result-details/clientlibs/assets/ico--lucky-paw.svg') no-repeat center;
+    background-size: contain;
+    width: 48px;
+    height: 44px; }
+    @media screen and (max-width: 47.9375em) {
+      .divs-pending-icon.lucky-lotteries {
+        width: 32px;
+        height: 29px; } }
+
+.divs-pending-text {
+  color: #767676;
+  margin: 1rem; }
+  @media screen and (max-width: 47.9375em) {
+    .divs-pending-text {
+      margin: 0.5rem; } }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.sort-by-numeric .number-container.numeric-pop-order-0 {
+  order: 0; }
+
+.sort-by-numeric .number-container.numeric-pop-order-1 {
+  order: 1; }
+
+.sort-by-numeric .number-container.numeric-pop-order-2 {
+  order: 2; }
+
+.sort-by-numeric .number-container.numeric-pop-order-3 {
+  order: 3; }
+
+.sort-by-numeric .number-container.numeric-pop-order-4 {
+  order: 4; }
+
+.sort-by-numeric .number-container.numeric-pop-order-5 {
+  order: 5; }
+
+.sort-by-numeric .number-container.numeric-pop-order-6 {
+  order: 6; }
+
+.sort-by-numeric .number-container.numeric-pop-order-7 {
+  order: 7; }
+
+.sort-by-numeric .number-container.numeric-pop-order-8 {
+  order: 8; }
+
+.sort-by-numeric .number-container.numeric-pop-order-9 {
+  order: 9; }
+
+.sort-by-numeric .number-container.numeric-pop-order-10 {
+  order: 10; }
+
+.sort-by-numeric .number-container.numeric-pop-order-11 {
+  order: 11; }
+
+.sort-by-numeric .number-container.numeric-pop-order-12 {
+  order: 12; }
+
+.sort-by-numeric .number-container.numeric-pop-order-13 {
+  order: 13; }
+
+.sort-by-numeric .number-container.numeric-pop-order-14 {
+  order: 14; }
+
+.sort-by-numeric .number-container.numeric-pop-order-15 {
+  order: 15; }
+
+.sort-by-numeric .number-container.numeric-pop-order-16 {
+  order: 16; }
+
+.sort-by-numeric .number-container.numeric-pop-order-17 {
+  order: 17; }
+
+.sort-by-numeric .number-container.numeric-pop-order-18 {
+  order: 18; }
+
+.sort-by-numeric .number-container.numeric-pop-order-19 {
+  order: 19; }
+
+.sort-by-numeric .number-container.numeric-pop-order-20 {
+  order: 20; }
+
+special-draw-indicator {
+  padding-top: 0.5rem; }
+
+
+
+	var publishedUtcDateTime = '2019-02-07 23:26:17';
+  	var currentUtcDateTime = '2019-02-14 08:15:12';
+    var currentLocalDateTime = '2019-02-14 18:15:12';
+
+
+
+require(['service/ux/user-experience-script']);
+
+
+×You are currently playing in NSWNot in NSW? You can change your location below.SELECT REGION
+
+
+
+
+
+
+
+
+
+ 
+
+
+SIGN UPLogin  0Added to your cart0 Games $0.00Checkout
+
+
+
+
+
+
+
+
+
+
+
+
+Play 
+
+Results 
+Real Winners
+More 
+
+
+
+
+
+
+
+
+
+Play All Games
+
+Select a game to play
+
+
+
+
+
+Saturday Gold Lotto
+
+
+
+
+Saturday Lotto
+
+
+
+
+Saturday X Lotto
+
+
+
+
+TattsLotto
+
+
+
+
+Oz Lotto
+
+
+
+
+Powerball
+
+
+
+
+Set for Life
+
+
+
+
+Mon & Wed Gold Lotto
+
+
+
+
+Mon & Wed Lotto
+
+
+
+
+Mon & Wed X Lotto
+
+
+
+
+Lucky Lotteries
+
+
+
+
+Lotto Strike
+
+
+
+
+Super 66
+
+
+
+
+Instant Scratch-Its
+
+
+
+
+Favourites
+
+
+
+
+Syndicates
+
+
+
+
+Get the App
+
+
+
+
+Find an Outlet
+
+
+
+
+
+
+Play All Games
+
+
+
+ALSO CHECK OUT
+
+
+
+
+
+
+Instant Scratch-Its
+
+
+
+
+
+
+Get the App
+
+
+
+
+
+
+Find an Outlet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Select a game for latest results
+
+
+View
+                All Results
+
+
+
+
+Saturday Gold Lotto
+
+
+TattsLotto
+
+
+Saturday Lotto
+
+
+Saturday X Lotto
+
+
+Oz Lotto
+
+
+Powerball
+
+
+Set for Life
+
+
+Mon & Wed Gold Lotto
+
+
+Mon & Wed Lotto
+
+
+Mon & Wed X Lotto
+
+
+Keno
+
+
+Lucky Lotteries
+
+
+Super 66
+
+
+Lotto Strike
+
+
+Check My Ticket
+
+
+The Pools
+
+
+Results Services
+
+
+Claiming Prizes
+
+
+
+
+
+
+View All Results
+
+
+
+
+ALSO CHECK OUT
+
+
+
+
+
+The Pools
+
+
+
+
+Results Services
+
+
+
+
+Claiming Prizes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT YOUR STATE OF RESIDENCE
+
+
+CHANGE
+
+
+
+
+
+ABOUT US
+The Lott
+Game Rules
+Media Centre
+Find a Store
+
+
+
+
+HELP
+Help Centre
+
+Contact Us
+
+
+
+                      Call
+                    
+
+
+
+
+
+
+COMMUNITY
+Our Partners
+
+
+
+
+RESPONSIBLE PLAY
+Our Program
+
+
+
+
+JOIN THE TEAM
+Become a Retailer
+
+
+
+
+PLAYERS CLUB
+Become a Member
+Bonus Draw Results
+
+
+
+
+
+
+
+
+
+  require(['navigation'], function(componentjs) {
+    componentjs.bootstrap(document.getElementById(''));
+  });
+
+
+
+
+
+
+Play Now View Results How to Play How to Win Play NowView ResultsHow to PlayHow to Win
+
+
+
+
+Powerball Results
+
+
+
+
+
+
+Draw No. 1186Thu, 7 Feb 2019PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers1732201122246P'ball19Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1187002$56,212.75$281,063.75503$8,179.10$171,761.102114$566.75$312,279.255511515$156.90$234,251.7014934616$69.75$1,514,412.002171271247$42.50$1,186,770.002792489948$17.30$2,345,066.90135553434399$10.50$4,101,825.00390650124419CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1185Thu, 31 Jan 2019PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers34312910192822P'ball10Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1186002$203,054.95$203,054.95103$6,531.00$124,089.001984$412.45$225,610.155471555$147.40$169,215.2011483716$68.05$1,094,584.251608550737$40.30$857,664.602128269198$17.10$1,692,506.7098977309559$10.65$2,961,520.0527807787136CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1184Thu, 24 Jan 2019PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers172935231982P'ball3Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1185002Transferred to Div. 3003$8,655.00$250,995.002984$294.40$173,107.205881285$128.65$129,807.8510093186$65.45$839,592.601282841927$34.90$657,411.301883758208$17.00$1,298,052.0076356246069$10.70$2,281,593.1021323369287CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1183Thu, 17 Jan 2019PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers2018332211264P'ball9Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1$107,575,649.08$107,575,649.08112$94,792.90$1,895,858.002073$4,422.05$1,158,577.10262924$433.35$2,106,514.35486114985$155.65$1,580,003.151015130606$70.40$10,216,588.80145122440157$41.45$8,009,134.80193224588658$17.55$15,802,669.359004372761099$10.65$27,713,408.702602198801335CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1182Thu, 10 Jan 2019PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers310728342431P'ball14Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1183002$81,533.30$1,222,999.501543$4,853.15$747,385.10154624$425.70$1,358,834.40319210585$150.55$1,019,072.95676921926$71.30$6,590,686.8092436285177$41.30$5,165,556.20125074396838$17.65$10,181,331.905768461774709$10.75$17,881,313.501663378510462CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1181Thu, 3 Jan 2019PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers811191272533P'ball13Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1182002$115,772.90$694,637.40633$4,042.85$424,499.25105364$379.65$771,828.4520336615$148.10$578,774.80390811746$66.45$3,743,925.9056342170167$40.40$2,933,767.2072618219708$16.50$5,780,346.003503241070349$10.20$10,148,500.20994951300704CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1180Thu, 27 Dec 2018PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers9175718829P'ball19Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1181002$98,969.15$395,876.60413$6,203.20$241,924.803974$488.20$439,868.209012785$151.70$329,947.5021756746$67.20$2,132,592.003173599567$40.00$1,671,680.0041792133648$16.75$3,300,470.25197043600739$10.50$5,784,177.00550874168399CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1179Thu, 20 Dec 2018PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers195241393220P'ball15Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1180002$59,793.20$358,759.20613$4,474.30$219,240.7049184$426.80$398,631.209343135$159.85$298,919.5018705446$70.95$1,932,890.852724381797$42.00$1,515,066.0036073110338$17.65$2,993,828.30169622509229$10.75$5,249,031.50488282148095CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1178Thu, 13 Dec 2018PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers248262835715P'ball13Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1179002$167,715.40$335,430.80213$5,124.65$204,986.0040134$442.65$372,711.308422615$154.50$279,490.5018095796$68.15$1,807,338.002652080137$42.00$1,416,324.0033722105298$16.60$2,791,771.40168179516249$10.15$4,898,034.75482565147521CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAWDraw No. 1177Thu, 6 Dec 2018PREV DRAWNEXT DRAW<product-result-details-body model.bind="model.Body" sort-by.bind="sortBy" dispatcher.bind="dispatcher" ,="" current-special-draw-indicator-draw.bind="currentSpecialDrawIndicatorDraw" class="au-target product-result-body sort-by-drawn" au-target-id="489">Winning Numbers14626320533P'ball19Drawn | NumericalDivisionDivision PrizeDivision Prize PoolWinnersNSW / ACT WinnersWinning Combinations1JackpottedJackpotted to draw 1178002$268,392.40$268,392.40103$5,467.25$164,017.5030124$518.65$298,223.755752465$160.35$223,688.2513954636$73.35$1,446,682.051972361137$45.25$1,133,105.252504175168$17.90$2,235,620.50124895383959$10.75$3,915,375.75364221111898CHECK MY TICKETWATCH DRAW VIDEOPLAY NEXT DRAW
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+                Posted:  12 December 2018 @ 2:08PM (AEST)
+              
+
+                Everyday winners, winning every day
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Posted:  17 January 2019 @ 10:08PM (AEST)
+              
+
+                $100 million Powerball jackpot won by a single Sydney player
+                
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Search Powerball ResultsDRAW NO. DRAW NO.DATE & TIME DATE & TIMEDRAW NO. DRAW NO.FIND
+
+
+
+ 
+
+
+
+
+
+
+Number Frequencies for Powerball
+Looking for the most or least common Powerball numbers? Check out our statistics below based on all Powerball draws since and including Draw 1144 (Thu, 19 Apr 2018).
+
+It's important to note that Powerball is a game of chance where all numbers are drawn randomly. Each number has an equal chance of being drawn.
+
+
+
+FREQUENCY FREQ.FREQUENCY FREQ.LAST DRAWN LST DRWNCOMBO COMBOSort numbers by: Numerical orderHighest to lowest frequencyShowing the frequency each number has been drawn since Draw 1144 (Thu, 19 Apr 2018)Winning Numbers1 4 times  2 10 times  3 9 times  4 7 times  5 8 times  6 7 times  7 11 times  8 8 times  9 10 times  10 6 times  11 6 times  12 4 times  13 8 times  14 9 times  15 6 times  16 5 times  17 12 times  18 9 times  19 10 times  20 10 times  21 4 times  22 12 times  23 10 times  24 12 times  25 11 times  26 6 times  27 4 times  28 10 times  29 14 times  30 7 times  31 8 times  32 14 times  33 9 times  34 11 times  35 10 times  Powerball3 5 times  5 2 times  6 1 time  7 2 times  8 1 time  9 3 times  10 2 times  11 2 times  12 3 times  13 4 times  14 2 times  15 3 times  16 2 times  17 3 times  19 5 times  20 3 times  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Available on the
+                                
+App Store
+
+
+
+
+
+
+Available for
+                                Android
+
+
+
+
+
+
+
+
+
+
+
+
+                                        Have fun & play
+                                        responsibly
+                                    
+
+
+
+Think! About your choices. CallGambling Help on 1800 858 858.www.gamblinghelp.nsw.gov.au
+
+
+
+
+
+
+
+
+
+
+Safe and Secure
+ All transactions 128bit SSL encrypted
+                
+
+
+
+
+
+
+                            Call
+                            Us 131 868
+                        
+
+
+
+                        Call
+                        Us 131 868
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                ©
+                2019 The Lott
+            
+
+Privacy |
+                Terms of Use |
+                Terms & Conditions
+
+
+
+
+
+    require(['footer'], function (componentjs) {
+        componentjs.bootstrap(document.getElementById('footer'));
+    });
+
+
+
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('MSIE ');
+    if (msie &gt; 0) {document.querySelector('html').className += ' MSIE';}
+
+    var trident = ua.indexOf('Trident/');
+    if (trident &gt; 0) {document.querySelector('html').className += ' MSIE';}
+
+    var edge = ua.indexOf('Edge/');
+    if (edge &gt; 0) {document.querySelector('html').className += ' MSIE';}
+
