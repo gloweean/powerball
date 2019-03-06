@@ -63,7 +63,11 @@ class Command(BaseCommand):
                 print(number_set)
                 
                 # database 연동
-                powerball = int(number_set.pop())
+                target = number_set.pop()
+                try:
+                    powerball = int(target)
+                except:
+                    powerball = int(number_set.pop())
                 
                 number_set.pop(0)
                 draw_date_str = number_set.pop(0)
